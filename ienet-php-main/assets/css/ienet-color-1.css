@@ -1,0 +1,17 @@
+:root {
+  --ienet-font: "Plus Jakarta Sans", sans-serif;
+  --ienet-heading-font: "Libre Baskerville", serif;
+  --ienet-text: #89868D;
+  --ienet-text-rgb: 137, 134, 141;
+  --ienet-base: #DE968D;
+  --ienet-base-rgb: 222, 150, 141;
+  --ienet-gray: #FCF5F5;
+  --ienet-gray-rgb: 252, 245, 245;
+  --ienet-white: #fff;
+  --ienet-white-rgb: 255, 255, 255;
+  --ienet-black: #27252A;
+  --ienet-black-rgb: 39, 37, 42;
+  --ienet-border-color: #89868D;
+  --ienet-border-color-rgb: 137, 134, 141;
+}
+/*# sourceMappingURL=ienet-color-1.css.map */
