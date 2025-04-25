@@ -97,14 +97,11 @@
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list one-page-scroll-menu">
                             <li class="scrollToLink current"><a href="#home">Home</a></li>
-                            <!-- <li class="scrollToLink"><a href="#about">About</a></li> -->
-                            <li class="scrollToLink"><a href="#about">Service</a></li>
+                            <li class="scrollToLink"><a href="#about">About</a></li>
                             <li class="scrollToLink"><a href="#packages">Packages</a></li>
-                            <!-- <li class="scrollToLink"><a href="#movie">Movie</a></li> -->
-                            <li class="scrollToLink"><a href="#movie">Online Streaming</a></li>
-                            <li class="scrollToLink"><a href="#shop">Shop</a></li>
-                            <!-- <li class="scrollToLink"><a href="#testimonial">Testimonial</a></li>
-                            <li class="scrollToLink"><a href="#blog">Blog</a></li> -->
+                            <li class="scrollToLink"><a href="#movie">Movie</a></li>
+                            <li class="scrollToLink"><a href="#testimonial">Testimonial</a></li>
+                            <li class="scrollToLink"><a href="#blog">Blog</a></li>
                         </ul>
                     </nav><!-- /.main-header__nav -->
                     <div class="main-header__right">
@@ -1369,112 +1366,9 @@
                     </div>
                 </div>
             </div><!-- /.container -->
-        </section>
-        <!-- /.testimonials-one -->
+        </section><!-- /.testimonials-one -->
 
         <section class="blog-one" id="blog">
-            <div class="container">
-                <div class="sec-title text-center">
-
-                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>latest blog<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
-
-                    <h3 class="sec-title__title bw-split-in-left">Our Latest <span>Blog</span> News</h3><!-- /.sec-title__title -->
-                </div><!-- /.sec-title -->
-                <div class="blog-one__carousel ienet-owl__carousel ienet-owl__carousel--with-shadow ienet-owl__carousel--basic-nav owl-carousel owl-theme" data-owl-options='{
-			"items": 1,
-			"margin": 30,
-			"loop": false,
-			"smartSpeed": 700,
-			"nav": false,
-			"navText": ["<span class=\"icon-left-chevron\"></span>","<span class=\"icon-right-chevron\"></span>"],
-			"dots": false,
-			"autoplay": false,
-			"responsive": {
-				"0": {
-					"nav": true,
-					"items": 1
-				},
-				"768": {
-					"nav": true,
-					"items": 2
-				},
-				"992": {
-					"items": 3
-				}
-			}
-			}'>
-                    <div class="item">
-                        <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms'>
-                            <div class="blog-card__image">
-                                <img src="assets/images/blog/blog-1-1.png" alt="Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt">
-                                <img src="assets/images/blog/blog-1-1.png" alt="Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt">
-                                <a href="blog-details-right.php" class="blog-card__image__link"><span class="sr-only">Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt</span>
-                                    <!-- /.sr-only --></a>
-                                <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
-                                <ul class="list-unstyled blog-card__meta">
-                                    <li><a href="blog-list-right.php"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                    <li><a href="blog-details-right.php"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
-                                </ul><!-- /.list-unstyled blog-card__meta -->
-                            </div><!-- /.blog-card__image -->
-                            <div class="blog-card__content">
-                                <h3 class="blog-card__title"><a href="blog-details-right.php">Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt</a></h3><!-- /.blog-card__title -->
-                                <a href="blog-details-right.php" class="blog-card__link">
-                                    <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                    <span class="blog-card__link__back"><span class="fas fa-angle-double-right"></span>Read More</span>
-                                </a><!-- /.blog-card__link -->
-                            </div><!-- /.blog-card__content -->
-                        </div><!-- /.blog-card -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
-                            <div class="blog-card__image">
-                                <img src="assets/images/blog/blog-1-2.png" alt="The Best Usage of The Fiber Internet from Broadband">
-                                <img src="assets/images/blog/blog-1-2.png" alt="The Best Usage of The Fiber Internet from Broadband">
-                                <a href="blog-details-right.php" class="blog-card__image__link"><span class="sr-only">The Best Usage of The Fiber Internet from Broadband</span>
-                                    <!-- /.sr-only --></a>
-                                <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
-                                <ul class="list-unstyled blog-card__meta">
-                                    <li><a href="blog-list-right.php"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                    <li><a href="blog-details-right.php"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
-                                </ul><!-- /.list-unstyled blog-card__meta -->
-                            </div><!-- /.blog-card__image -->
-                            <div class="blog-card__content">
-                                <h3 class="blog-card__title"><a href="blog-details-right.php">The Best Usage of The Fiber Internet from Broadband</a></h3><!-- /.blog-card__title -->
-                                <a href="blog-details-right.php" class="blog-card__link">
-                                    <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                    <span class="blog-card__link__back"><span class="fas fa-angle-double-right"></span>Read More</span>
-                                </a><!-- /.blog-card__link -->
-                            </div><!-- /.blog-card__content -->
-                        </div><!-- /.blog-card -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='200ms'>
-                            <div class="blog-card__image">
-                                <img src="assets/images/blog/blog-1-3.png" alt="Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna">
-                                <img src="assets/images/blog/blog-1-3.png" alt="Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna">
-                                <a href="blog-details-right.php" class="blog-card__image__link"><span class="sr-only">Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna</span>
-                                    <!-- /.sr-only --></a>
-                                <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
-                                <ul class="list-unstyled blog-card__meta">
-                                    <li><a href="blog-list-right.php"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                    <li><a href="blog-details-right.php"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
-                                </ul><!-- /.list-unstyled blog-card__meta -->
-                            </div><!-- /.blog-card__image -->
-                            <div class="blog-card__content">
-                                <h3 class="blog-card__title"><a href="blog-details-right.php">Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna</a></h3><!-- /.blog-card__title -->
-                                <a href="blog-details-right.php" class="blog-card__link">
-                                    <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                    <span class="blog-card__link__back"><span class="fas fa-angle-double-right"></span>Read More</span>
-                                </a><!-- /.blog-card__link -->
-                            </div><!-- /.blog-card__content -->
-                        </div><!-- /.blog-card -->
-                    </div><!-- /.item -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.blog-one -->
-        
-        
-        <section class="shop-one" id="shop">
             <div class="container">
                 <div class="sec-title text-center">
 
