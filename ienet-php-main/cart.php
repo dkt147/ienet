@@ -1,10 +1,15 @@
+<?php
+session_start(); // Must be the first thing in your script
+
+// Rest of your PHP code
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Products Left Sidebar || Ienet || HTML Template For Broadband TV & Internet</title>
+    <title>Cart || Ienet || HTML Template For Broadband TV & Internet</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -96,14 +101,14 @@
                     <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a>
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list one-page-scroll-menu">
-                            <li class="scrollToLink current"><a href="./index-one-page.php">Home</a></li>
+                            <li class="scrollToLink current"><a href="#home">Home</a></li>
                             <!-- <li class="scrollToLink"><a href="#about">About</a></li> -->
-                            <li class="scrollToLink"><a href="//index-one-page.php#about">Service</a></li>
-                            <li class="scrollToLink"><a href="./index-one-page.php#packages">Packages</a></li>
+                            <li class="scrollToLink"><a href="#about">Service</a></li>
+                            <li class="scrollToLink"><a href="#packages">Packages</a></li>
                             <!-- <li class="scrollToLink"><a href="#movie">Movie</a></li> -->
                             <!-- <li class="scrollToLink"><a href="#movie">Online Streaming</a></li> -->
                             <!-- <li class="scrollToLink"><a href="#shop">Shop</a></li> -->
-                            <li class="scrollToLink"><a href="./index-one-page.php #movie" class="ienet-btn special"><span>Online Streaming<span class="ienet-btn__icon"><i class="fas fa-video"></i></span></span></a></li>
+                            <li class="scrollToLink"><a href="#movie" class="ienet-btn special"><span>Online Streaming<span class="ienet-btn__icon"><i class="fas fa-video"></i></span></span></a></li>
                             <li class="scrollToLink"><a href="products-left.php" class="ienet-btn special"><span>Shop<span class="ienet-btn__icon"><i class="fa fa-store"></i></span></span></a></li>
                             <!-- <li class="scrollToLink"><a href="#testimonial">Testimonial</a></li>
                             <li class="scrollToLink"><a href="#blog">Blog</a></li> -->
@@ -137,78 +142,131 @@
             <div class="page-header__layer"></div>
             <!-- /.page-header__bg -->
             <div class="container">
-                <h2 class="page-header__title bw-split-in-left">Products Left Sidebar</h2><!-- /.page-title -->
+                <h2 class="page-header__title bw-split-in-left">Cart</h2><!-- /.page-title -->
                 <ul class="ienet-breadcrumb list-unstyled">
                     <li><a href="index.php">Home</a></li>
-                    <li><span>Products</span></li>
+                    <li><span>Cart</span></li>
                 </ul><!-- /.thm-breadcrumb list-unstyled -->
             </div><!-- /.container -->
         </section><!-- /.page-header -->
 
-        <section class="product-one">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-xl-3 product-one__left">
-                        <div class="product__sidebar">
-                            <div class="product__search">
-                                <form action="#">
-                                    <input type="text" placeholder="Keywrord...">
-                                    <button type="submit" aria-label="search submit">
-                                        <span><i class="icon-search"></i></span>
-                                    </button>
-                                </form>
-                            </div><!-- /.search-widget -->
-                            <div class="product__price-ranger">
-                                <h3 class="product__sidebar__title">Filter by price</h3>
-                                <form action="#" class="price-ranger">
-                                    <div id="slider-range"></div>
-                                    <div class="ranger-min-max-block">
-                                        <input type="text" readonly class="min">
-                                        <span>-</span>
-                                        <input type="text" readonly class="max">
-                                    </div>
-                                </form>
-                            </div><!-- /.price-slider -->
-                            <div class="product__categories">
-                                <h3 class="product__sidebar__title">Categories</h3>
-                                <ul class="list-unstyled">
-                                    <li><a href="products.php"><span class="icon-arrow-point-to-right"></span>Kitchen Faucet</a></li>
-                                    <li><a href="products.php"><span class="icon-arrow-point-to-right"></span>Toilet Bowl</a></li>
-                                    <li><a href="products.php"><span class="icon-arrow-point-to-right"></span>Pipe Elbows</a></li>
-                                    <li><a href="products.php"><span class="icon-arrow-point-to-right"></span>Pressure Reducing</a></li>
-                                    <li><a href="products.php"><span class="icon-arrow-point-to-right"></span>Water Softeners</a></li>
-                                </ul>
-                            </div><!-- /.category-widget -->
-                        </div><!-- /.shop-sidebar -->
-                    </div><!-- /.col-lg-3 -->
-                    <div class="col-xl-9">
-                        <div class="product__info-top">
-                            <div class="product__showing-text-box">
-                                <p class="product__showing-text">Showing 1–9 of 12 Results</p>
-                            </div>
-                            <div class="product__showing-sort">
-                                <select class="selectpicker" aria-label="Default Sorting">
-                                    <option selected>Default Sorting</option>
-                                    <option value="1">Sort by view</option>
-                                    <option value="2">Sort by price</option>
-                                    <option value="3">Sort by ratings</option>
-                                    <option value="4">Sort by popular</option>
-                                </select>
-                            </div>
-                        </div>
 
-                        <div class="row gutter-y-30" id="product-list">
-                            
-                            <!-- /.col-md-12 -->
-                        </div><!-- /.row -->
-                        <div class="col-md-12">
-                            <ul class="post-pagination text-center product__pagination" id="pagination"></ul>
+        <!-- Cart Start -->
+        <section class="cart-page">
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table cart-page__table">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Sub Total</th>
+                                <th>Remove</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <tbody>
+                            <?php
+                            if (!empty($_SESSION['cart'])):
+                                foreach ($_SESSION['cart'] as $item):
+                                    $subtotal = $item['price'] * $item['quantity'];
+                            ?>
+                                    <tr>
+                                        <td>
+                                            <div class="cart-page__table__meta">
+                                                <div class="cart-page__table__meta-img">
+                                                    <!-- You may need to store image in session or fetch from JSON if needed -->
+                                                    <img src="assets/images/products/cart-placeholder.jpg" alt="<?= htmlspecialchars($item['name']) ?>">
+                                                </div>
+                                                <h3 class="cart-page__table__meta-title">
+                                                    <a href="#"><?= htmlspecialchars($item['name']) ?></a>
+                                                </h3>
+                                            </div>
+                                        </td>
+                                        <td>$<?= number_format($item['price'], 2) ?></td>
+                                        <td>
+                                            <div class="product-details__quantity">
+                                                <div class="quantity-box">
+                                                    <button type="button" class="sub"><i class="fa fa-minus"></i></button>
+                                                    <input type="text" value="<?= $item['quantity'] ?>">
+                                                    <button type="button" class="add"><i class="fa fa-plus"></i></button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>$<?= number_format($subtotal, 2) ?></td>
+                                        <td>
+                                            <a href="remove-from-cart.php?id=<?= $item['id'] ?>" class="table cart-page__table__remove">x</a>
+                                        </td>
+                                    </tr>
+                                <?php
+                                endforeach;
+                            else:
+                                ?>
+                                <tr>
+                                    <td colspan="5" style="text-align:center;">Your cart is empty.</td>
+                                </tr>
+                            <?php endif; ?>
+                        </tbody>
+
+                        </tbody>
+                    </table>
+                    <div class="cart-page__coupone">
+                        <form action="#" class="cart-page__coupone__form">
+                            <label for="coupon">Coupon:</label>
+                            <input type="text" placeholder="Enter Coupon Code" id="coupon" class="cart-cupon__input">
+                            <button type="submit" class="ienet-btn"><span>Apply Code</span></button>
+                        </form>
+                        <a href="cart.php" class="ienet-btn update"><span>Update Cart</span></a>
+                    </div>
+                </div>
+                <?php
+                // Calculate total
+                $total = 0;
+
+                if (!empty($_SESSION['cart'])) {
+                    foreach ($_SESSION['cart'] as $item) {
+                        $subTotal = $item['price'] * $item['quantity'];
+                        $total += $subTotal;
+                    }
+                }
+                ?>
+
+                <?php if (!empty($_SESSION['cart'])): ?>
+                    <div class="cart-page__cart-total">
+                        <h3 class="cart-page__cart-total__title">Cart Total</h3>
+                        <ul class="cart-page__cart-total__list list-unstyled">
+                            <li><span>Subtotal</span><span class="cart-page__cart-total__list__amount">$<?php echo number_format($total, 2); ?></span></li>
+                            <li class="shipping">
+                                <h4 class="cart-page__cart-total__text">Shipping Address</h4>
+                                <address class="cart-page__cart-total__address">2801 Lafayette Blvd, Norfolk, Vermont 23509, United States</address>
+                            </li>
+                            <li><span>Total</span><span class="cart-page__cart-total__list__amount">$<?php echo number_format($total, 2); ?></span></li>
+                        </ul>
+                        
+                        <div class="cart-page__cart-total__buttons">
+                            <a href="https://wa.me/+923132004039?text=" class="ienet-btn"><span>Checkout</span></a>
                         </div>
                     </div>
-                    <!-- /.col-lg-9 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.product-one -->
+                <?php endif; ?>
+
+                <!-- <div class="cart-page__cart-total">
+                    <h3 class="cart-page__cart-total__title">Subtotal</h3>
+                    <ul class="cart-page__cart-total__list list-unstyled">
+                        <li><span>Subtotal</span><span class="cart-page__cart-total__list__amount">$999.00</span></li>
+                        <li class="shipping">
+                            <h4 class="cart-page__cart-total__text">Shipping Address</h4>
+                            <address class="cart-page__cart-total__address">2801 Lafayette Blvd, Norfolk, Vermont 23509, united state</address>
+                        </li>
+                        <li><span>Total</span><span class="cart-page__cart-total__list__amount">$999.00</span></li>
+                    </ul>
+                    <div class="cart-page__cart-total__buttons">
+                        <a href="checkout.php" class="ienet-btn"><span>checkout</span></a>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <!-- Cart End -->
 
         <footer class="main-footer background-black">
             <div class="main-footer__bg background-black" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
@@ -501,8 +559,3 @@
 </body>
 
 </html>
-<script type="module">
-    import { bindAddToCart } from './assets/js/add-to-cart.js';
-
-    bindAddToCart(); // default selector and alert
-</script>

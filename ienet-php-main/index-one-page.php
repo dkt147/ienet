@@ -783,11 +783,10 @@
 
                         <h3 class="sec-title__title bw-split-in-left">Check Availability In <span>Your City</span></h3><!-- /.sec-title__title -->
                     </div><!-- /.sec-title -->
-                    <form action=""  class="mail-one__newsletter mc-form" >
+                    <form action="" class="mail-one__newsletter mc-form">
                         <select name="location" id="locationCheck" class="select2-select form-control">
-                            <?php 
+                            <?php
                             $areas = json_decode(file_get_contents('location.json'), true);
-
                             foreach ($areas as $area): ?>
                                 <option value="<?= htmlspecialchars($area) ?>"><?= htmlspecialchars($area) ?></option>
                             <?php endforeach; ?>
@@ -796,8 +795,11 @@
                         <input type="text" name="EMAIL" id="emailCheck" placeholder="Enter Your Email OR WhatsApp">
                         <span class="mail-one__newsletter__icon"><i class="icon-location"></i></span>
                         <button type="button" id="checkAvailabilityForm" class="ienet-btn"><span>Check Availability</span></button>
-                        <div class="mc-form__response"></div><!-- /.mc-form__response -->
-                    </form><!-- /.footer-widget__newsletter mc-form -->
+
+                        <!-- ✅ Flash message will appear here -->
+                        <div id="formMessage" style="margin-top: 10px;"></div>
+                    </form>
+                    <!-- /.footer-widget__newsletter mc-form -->
                 </div>
             </div>
         </section>
@@ -1651,47 +1653,55 @@
     <!-- template js -->
     <script src="assets/js/ienet.js"></script>
     <script>
-  $(document).ready(function() {
-    $('.select2-select').select2({
-      placeholder: "Select an area...",
-      allowClear: true
-    });
+    $(document).ready(function() {
+        $('.select2-select').select2({
+            placeholder: "Select an area...",
+            allowClear: true
+        });
 
-// SEND EMAIL/ 
-    $("#checkAvailabilityForm").on("click", function(e) {
-        e.preventDefault()
-        var parentBtn = $("#checkAvailabilityForm")
-        parentBtn.find("span").html("Sending...")
-        parentBtn.prop("disabled", true);
-        parentBtn.toggleClass("btn btn-secondary")
-        $.ajax({
-            url: 'Controllers/sendMail.php',
-            method: 'GET',
-            data: {
-                location: $("#locationCheck").val(),
-                EMAIL: $("#emailCheck").val()
-            },
-            success: function(response) {
-                // console.log(response.status);
-                var data = response
-                if (data.status == 200) {
-                    alert("Email sent successfully.");
-                } else {
-                    alert(data.message || "Something went wrong.");
+        $("#checkAvailabilityForm").on("click", function(e) {
+            e.preventDefault();
+            var parentBtn = $("#checkAvailabilityForm");
+            parentBtn.find("span").html("Sending...");
+            parentBtn.prop("disabled", true);
+            parentBtn.toggleClass("btn btn-secondary");
+
+            $.ajax({
+                url: 'Controllers/sendMail.php',
+                method: 'GET',
+                data: {
+                    location: $("#locationCheck").val(),
+                    EMAIL: $("#emailCheck").val()
+                },
+                success: function(response) {
+                    // console.log(response.status);
+                    var data = response;
+
+                    if (data.status == 200) {
+                        // Display success message below the submit button
+                        $("#formMessage").html('<div class="alert alert-success mt-2" role="alert">A sua mensagem foi enviada. Retornaremos após analisá-la.</div>');
+                    } else {
+                        // Display error message below the submit button
+                        $("#formMessage").html('<div class="alert alert-danger mt-2" role="alert">' + (data.message || "Something went wrong.") + '</div>');
+                    }
+
+                    parentBtn.find("span").html("Check Availability");
+                    parentBtn.prop("disabled", false);
+                    parentBtn.toggleClass("btn btn-secondary");
+
+                    // Optionally, hide the message after a few seconds
+                    setTimeout(function() {
+                        $("#formMessage").fadeOut();
+                    }, 5000); // Message will fade out after 5 seconds
+                },
+                error: function(xhr) {
+                    console.error('Error:', xhr);
+                    // Display error message below the submit button if AJAX request fails
+                    $("#formMessage").html('<div class="alert alert-danger mt-2" role="alert">AJAX request failed.</div>');
                 }
-                parentBtn.find("span").html("Check Availability")
-                parentBtn.prop("disabled", false);
-                parentBtn.toggleClass("btn btn-secondary")
-        },
-        error: function(xhr) {
-            console.error('Error:', xhr);
-            alert("AJAX request failed.");
-        }
+            });
+        });
     });
-});
-
-
-  });
 </script>
 
 <script type="module">
