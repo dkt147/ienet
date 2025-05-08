@@ -8,9 +8,9 @@
     <title>Ienet - HTML Template For Broadband TV & Internet</title>
     <meta name="description" content="Ienet is a modern creative multipurpose design agency HTML template. Which fits for all agencies whether you are a business agency, web agency, freelancer, portfolio agency, web design company, web designer, digital marketing or any type of design agency websites and businesses. We got you covered." />
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.jpg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.jpg" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.jpg" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
 
     <!-- fonts -->
