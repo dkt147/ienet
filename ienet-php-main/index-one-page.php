@@ -105,7 +105,7 @@
                             <!-- <li class="scrollToLink"><a href="#movie">Online Streaming</a></li> -->
                             <!-- <li class="scrollToLink"><a href="#shop">Shop</a></li> -->
                             <li class="scrollToLink"><a href="#movie" class="ienet-btn special"><span>Online Streaming<span class="ienet-btn__icon"><i class="fas fa-video"></i></span></span></a></li>
-                            <li class="scrollToLink"><a href="#shop" class="ienet-btn special"><span>Shop<span class="ienet-btn__icon"><i class="fa fa-store"></i></span></span></a></li>
+                            <li class="scrollToLink"><a href="products-left.php" class="ienet-btn special"><span>Shop<span class="ienet-btn__icon"><i class="fa fa-store"></i></span></span></a></li>
                             <!-- <li class="scrollToLink"><a href="#testimonial">Testimonial</a></li>
                             <li class="scrollToLink"><a href="#blog">Blog</a></li> -->
                         </ul>
@@ -1275,176 +1275,82 @@
             <div class="container">
                 <div class="sec-title text-center">
 
-                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>latest blog<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>latest Products<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
 
-                    <h3 class="sec-title__title bw-split-in-left">Our Latest <span>Blog</span> News</h3><!-- /.sec-title__title -->
+                    <h3 class="sec-title__title bw-split-in-left">Our Latest <span>Products</span> News</h3><!-- /.sec-title__title -->
                 </div><!-- /.sec-title -->
-                <div class="blog-one__carousel ienet-owl__carousel ienet-owl__carousel--with-shadow ienet-owl__carousel--basic-nav owl-carousel owl-theme" data-owl-options='{
-			"items": 1,
-			"margin": 30,
-			"loop": false,
-			"smartSpeed": 700,
-			"nav": false,
-			"navText": ["<span class=\"icon-left-chevron\"></span>","<span class=\"icon-right-chevron\"></span>"],
-			"dots": false,
-			"autoplay": false,
-			"responsive": {
-				"0": {
-					"nav": true,
-					"items": 1
-				},
-				"768": {
-					"nav": true,
-					"items": 2
-				},
-				"992": {
-					"items": 3
-				}
-			}
-			}'>
-                    <div class="item">
-                        <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms'>
-                            <div class="blog-card__image">
-                                <img src="assets/images/blog/blog-1-1.png" alt="Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt">
-                                <img src="assets/images/blog/blog-1-1.png" alt="Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt">
-                                <a href="blog-details-right.php" class="blog-card__image__link"><span class="sr-only">Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt</span>
-                                    <!-- /.sr-only --></a>
-                                <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
-                                <ul class="list-unstyled blog-card__meta">
-                                    <li><a href="blog-list-right.php"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                    <li><a href="blog-details-right.php"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
-                                </ul><!-- /.list-unstyled blog-card__meta -->
-                            </div><!-- /.blog-card__image -->
-                            <div class="blog-card__content">
-                                <h3 class="blog-card__title"><a href="blog-details-right.php">Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt</a></h3><!-- /.blog-card__title -->
-                                <div class="blog-card__link" style="max-width: 100%;">
-                                    <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                    <span class="blog-card__link__back">
-                                        <span class="fas fa-angle-double-right m-2" onclick="location.href='blog-details-right.php'" style="cursor: pointer;"></span>Read More
-                                        <span class="blog-card__whatsapp m-2" style="cursor: pointer;background-color:#25D366"
-                                            onclick="window.open('http:/\/\wa.me/+923132004039?text=Hi%20there%2C%20I%20want%20to%20place%20an%20order', '_blank')"><i class="fab fa-whatsapp"></i></span>
-                                    </span>
-                                </div><!-- /.blog-card__link -->
-                            </div><!-- /.blog-card__content -->
-                        </div><!-- /.blog-card -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
-                            <div class="blog-card__image">
-                                <img src="assets/images/blog/blog-1-2.png" alt="The Best Usage of The Fiber Internet from Broadband">
-                                <img src="assets/images/blog/blog-1-2.png" alt="The Best Usage of The Fiber Internet from Broadband">
-                                <a href="blog-details-right.php" class="blog-card__image__link"><span class="sr-only">The Best Usage of The Fiber Internet from Broadband</span>
-                                    <!-- /.sr-only --></a>
-                                <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
-                                <ul class="list-unstyled blog-card__meta">
-                                    <li><a href="blog-list-right.php"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                    <li><a href="blog-details-right.php"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
-                                </ul><!-- /.list-unstyled blog-card__meta -->
-                            </div><!-- /.blog-card__image -->
-                            <div class="blog-card__content">
-                                <h3 class="blog-card__title"><a href="blog-details-right.php">The Best Usage of The Fiber Internet from Broadband</a></h3><!-- /.blog-card__title -->
-                                <div class="blog-card__link" style="max-width: 100%;">
-                                    <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                    <span class="blog-card__link__back">
-                                        <span class="fas fa-angle-double-right m-2" onclick="location.href='blog-details-right.php'" style="cursor: pointer;"></span>Read More
-                                        <span class="blog-card__whatsapp m-2" style="cursor: pointer;background-color:#25D366"
-                                            onclick="window.open('http:/\/\wa.me/+923132004039?text=Hi%20there%2C%20I%20want%20to%20place%20an%20order', '_blank')"><i class="fab fa-whatsapp"></i></span>
-                                    </span>
-                                </div><!-- /.blog-card__link -->
-                            </div><!-- /.blog-card__content -->
-                        </div><!-- /.blog-card -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='200ms'>
-                            <div class="blog-card__image">
-                                <img src="assets/images/blog/blog-1-3.png" alt="Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna">
-                                <img src="assets/images/blog/blog-1-3.png" alt="Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna">
-                                <a href="blog-details-right.php" class="blog-card__image__link"><span class="sr-only">Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna</span>
-                                    <!-- /.sr-only --></a>
-                                <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
-                                <ul class="list-unstyled blog-card__meta">
-                                    <li><a href="blog-list-right.php"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                    <li><a href="blog-details-right.php"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
-                                </ul><!-- /.list-unstyled blog-card__meta -->
-                            </div><!-- /.blog-card__image -->
-                            <div class="blog-card__content">
-                                <h3 class="blog-card__title"><a href="blog-details-right.php">Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna</a></h3><!-- /.blog-card__title -->
-                                <div class="blog-card__link" style="max-width: 100%;">
-                                    <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                    <span class="blog-card__link__back">
-                                        <span class="fas fa-angle-double-right m-2" onclick="location.href='blog-details-right.php'" style="cursor: pointer;"></span>Read More
-                                        <span class="blog-card__whatsapp m-2" style="cursor: pointer;background-color:#25D366"
-                                            onclick="window.open('http:/\/\wa.me/+923132004039?text=Hi%20there%2C%20I%20want%20to%20place%20an%20order', '_blank')"><i class="fab fa-whatsapp"></i></span>
-                                    </span>
-                                </div><!-- /.blog-card__link -->
-                            </div><!-- /.blog-card__content -->
-                        </div><!-- /.blog-card -->
-                    </div><!-- /.item -->
+                <div class="row">
+                <div class="col-xl-12">
+                <div style="text-align: right;">
+                 <div class="btn text-center" onclick="location.assign('products-left.php')">
+                       <p>See More >></p>
+                  </div>
+                </div>
+                        <div class="row gutter-y-30 " id="product-list">
+                            <!-- <div class="col-md-6 col-lg-4">
+                                <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
+                                    <div class="product__item__img">
+                                        <img src="assets/images/products/product-1-1.png" alt="nisoz">
+                                        <div class="product__item__btn">
+                                            <a href="cart.php"><i class="far fa-heart"></i></a>
+                                            <a href="product-details.php"><i class="fas fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="product__item__content">
+                                        <div class="product__item__ratings">
+                                            <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
+                                        </div>
+                                        <h4 class="product__item__title"><a href="product-details.php">Digital Brush</a></h4>
+                                        <div class="product__item__price">$20.00</div>
+                                        <a class="ienet-btn product__item__link add-to-cart-btn"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
+                                    <div class="product__item__img">
+                                        <img src="assets/images/products/product-1-2.png" alt="nisoz">
+                                        <div class="product__item__btn">
+                                            <a><i class="far fa-heart"></i></a>
+                                            <a href="product-details.php"><i class="fas fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="product__item__content">
+                                        <div class="product__item__ratings">
+                                            <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
+                                        </div>
+                                        <h4 class="product__item__title"><a href="product-details.php">Tplink Router</a></h4>
+                                        <div class="product__item__price">$25.00</div>
+                                        <a class="ienet-btn product__item__link add-to-cart-btn"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='200ms'>
+                                    <div class="product__item__img">
+                                        <img src="assets/images/products/product-1-3.png" alt="nisoz">
+                                        <div class="product__item__btn">
+                                            <a href="cart.php"><i class="far fa-heart"></i></a>
+                                            <a href="product-details.php"><i class="fas fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="product__item__content">
+                                        <div class="product__item__ratings">
+                                            <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
+                                        </div>
+                                        <h4 class="product__item__title"><a href="product-details.php">Digital Camera</a></h4>
+                                        <div class="product__item__price">$33.00</div>
+                                        <a href="cart.php" class="ienet-btn product__item__link add-to-cart-btn"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.blog-one -->
-
-        <div class="client-carousel ">
-            <div class="container">
-                <div class="client-carousel__one ienet-owl__carousel owl-theme owl-carousel" data-owl-options='{
-            "items": 5,
-            "margin": 65,
-            "smartSpeed": 700,
-            "loop":true,
-            "autoplay": 6000,
-            "nav":false,
-            "dots":false,
-            "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-            "responsive":{
-                "0":{
-                    "items":1,
-                    "margin": 0
-                },
-                "360":{
-                    "items":2,
-                    "margin": 30
-                },
-                "575":{
-                    "items":3,
-                    "margin": 30
-                },
-                "768":{
-                    "items":3,
-                    "margin": 40
-                },
-                "992":{
-                    "items": 4,
-                    "margin": 40
-                },
-                "1200":{
-                    "items": 5,
-                    "margin": 140
-                }
-            }
-            }'>
-                    <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-1.png" alt="WalaNet">
-                        <img class="client-carousel__one__item__hover" src="assets/images/resources/brand-1-1-hover.png" alt="WalaNet">
-                    </div><!-- /.owl-slide-item-->
-                    <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-2.png" alt="WalaNet">
-                        <img class="client-carousel__one__item__hover" src="assets/images/resources/brand-1-2-hover.png" alt="WalaNet">
-                    </div><!-- /.owl-slide-item-->
-                    <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-3.png" alt="WalaNet">
-                        <img class="client-carousel__one__item__hover" src="assets/images/resources/brand-1-3-hover.png" alt="WalaNet">
-                    </div><!-- /.owl-slide-item-->
-                    <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-4.png" alt="WalaNet">
-                        <img class="client-carousel__one__item__hover" src="assets/images/resources/brand-1-4-hover.png" alt="WalaNet">
-                    </div><!-- /.owl-slide-item-->
-                    <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-5.png" alt="WalaNet">
-                        <img class="client-carousel__one__item__hover" src="assets/images/resources/brand-1-5-hover.png" alt="WalaNet">
-                    </div><!-- /.owl-slide-item-->
-                </div><!-- /.thm-owl__slider -->
-            </div><!-- /.container -->
-        </div><!-- /.client-carousel -->
+<br>
+     
 
         <footer class="main-footer background-black">
             <div class="main-footer__bg background-black" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
@@ -1751,7 +1657,7 @@
       allowClear: true
     });
 
-
+// SEND EMAIL/ 
     $("#checkAvailabilityForm").on("click", function(e) {
         e.preventDefault()
         var parentBtn = $("#checkAvailabilityForm")
@@ -1786,6 +1692,12 @@
 
 
   });
+</script>
+
+<script type="module">
+    import { bindAddToCart } from './assets/js/add-to-cart.js';
+
+    bindAddToCart('.add-to-cart-btn', null , 3); // default selector and alert
 </script>
 </body>
 
