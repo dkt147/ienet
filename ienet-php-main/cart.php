@@ -169,10 +169,18 @@ session_start(); // Must be the first thing in your script
                         <tbody>
                             <?php
                             if (!empty($_SESSION['cart'])):
+                                $cartItems = [];
                                 foreach ($_SESSION['cart'] as $item):
                                     $subtotal = $item['price'] * $item['quantity'];
-                            ?>
-                                    <tr>
+                                    $cartItems[] = [
+                                        'id' => $item['id'],
+                                        'name' => $item['name'],
+                                        'price' => $item['price'],
+                                        'quantity' => $item['quantity'],
+                                        'subtotal' => $subtotal
+                                    ];
+                              ?>
+                                    <tr data-id="<?= $item['id'] ?>">
                                         <td>
                                             <div class="cart-page__table__meta">
                                                 <div class="cart-page__table__meta-img">
@@ -189,19 +197,21 @@ session_start(); // Must be the first thing in your script
                                             <div class="product-details__quantity">
                                                 <div class="quantity-box">
                                                     <button type="button" class="sub"><i class="fa fa-minus"></i></button>
-                                                    <input type="text" value="<?= $item['quantity'] ?>">
+                                                    <input type="text" class="quantity-input" value="<?= $item['quantity'] ?>" readonly>
                                                     <button type="button" class="add"><i class="fa fa-plus"></i></button>
                                                 </div>
                                             </div>
                                         </td>
-                                        <td>$<?= number_format($subtotal, 2) ?></td>
+                                        <td class="subtotal">$<?= number_format($subtotal, 2) ?></td>
                                         <td>
                                             <a href="remove-from-cart.php?id=<?= $item['id'] ?>" class="table cart-page__table__remove">x</a>
                                         </td>
                                     </tr>
                                 <?php
                                 endforeach;
-                            else:
+                                $cartItemsJson = json_encode($cartItems);
+                                $encodedCartItemsJson = urlencode($cartItemsJson);
+                               else:
                                 ?>
                                 <tr>
                                     <td colspan="5" style="text-align:center;">Your cart is empty.</td>
@@ -236,7 +246,7 @@ session_start(); // Must be the first thing in your script
                     <div class="cart-page__cart-total">
                         <h3 class="cart-page__cart-total__title">Cart Total</h3>
                         <ul class="cart-page__cart-total__list list-unstyled">
-                            <li><span>Subtotal</span><span class="cart-page__cart-total__list__amount">$<?php echo number_format($total, 2); ?></span></li>
+                            <li><span>Subtotal</span><span class="cart-page__cart-total__list__amount  mainsubtotal">$<?php echo number_format($total, 2); ?></span></li>
                             <li class="shipping">
                                 <h4 class="cart-page__cart-total__text">Shipping Address</h4>
                                 <address class="cart-page__cart-total__address">2801 Lafayette Blvd, Norfolk, Vermont 23509, United States</address>
@@ -245,7 +255,7 @@ session_start(); // Must be the first thing in your script
                         </ul>
                         
                         <div class="cart-page__cart-total__buttons">
-                            <a href="https://wa.me/+923132004039?text=" class="ienet-btn"><span>Checkout</span></a>
+                            <a href="https://wa.me/+258843736665?text=<?php echo $encodedCartItemsJson ?>" class="ienet-btn"><span>Checkout</span></a>
                         </div>
                     </div>
                 <?php endif; ?>
@@ -528,6 +538,7 @@ session_start(); // Must be the first thing in your script
     </a>
 
 
+
     <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
@@ -559,3 +570,39 @@ session_start(); // Must be the first thing in your script
 </body>
 
 </html>
+
+<script>
+document.querySelectorAll('.quantity-box button').forEach(button => {
+    button.addEventListener('click', function () {
+        const isAdd = this.classList.contains('add');
+        const action = isAdd ? 'add' : 'sub';
+        const row = this.closest('tr');
+        const id = row.getAttribute('data-id');
+
+        // Build the full URL with query parameters
+        const url = `Controllers/update-cart.php?id=${encodeURIComponent(id)}&action=${encodeURIComponent(action)}`;
+
+        fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            console.log(data.subtotal)
+            if (data.status === 'success') {
+                row.querySelector('.quantity-input').value = data.quantity;
+                row.querySelector('.subtotal').innerText = '$' + data.subtotal;
+
+
+                var val = document.getElementByClassName('.mainsubtotal')[0]
+                var numericVal = parseFloat(val.innerHTML.replace(/[^0-9.]/g, ''));
+                if(action == 'sub'){
+                    val.innerHTML = '$' + (numericVal - data.subtotal)
+                }else{
+                    val.innerHTML = '$' + (numericVal + data.subtotal)
+                }
+            } else {
+                alert('Failed to update cart.');
+            }
+        });
+    });
+});
+</script>
+

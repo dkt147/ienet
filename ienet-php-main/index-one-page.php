@@ -371,10 +371,10 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $9/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $9/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <!-- <span class="blog-card__whatsapp m-2 bg-success" style="cursor: pointer;"
-                                        onclick="window.open('http:/\/\wa.me/+923132004039?text=Hi%20there%2C%20I%20want%20to%20place%20an%20order', '_blank')"><i class="fab fa-whatsapp"></i></span> -->
+                                        onclick="window.open('http:/\/\wa.me/+258843736665?text=Hi%20there%2C%20I%20want%20to%20place%20an%20order', '_blank')"><i class="fab fa-whatsapp"></i></span> -->
 
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-1.jpg" alt="WalaNet">
@@ -391,7 +391,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $12/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $12/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-2.jpg" alt="WalaNet">
@@ -408,7 +408,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $15/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $15/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-3.jpg" alt="WalaNet">
@@ -429,7 +429,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $12/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $12/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-1.jpg" alt="WalaNet">
@@ -446,7 +446,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $35/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $35/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-2.jpg" alt="WalaNet">
@@ -463,7 +463,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $20/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $20/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-3.jpg" alt="WalaNet">
@@ -484,7 +484,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $19/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $19/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-1.jpg" alt="WalaNet">
@@ -501,7 +501,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $39/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $39/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-2.jpg" alt="WalaNet">
@@ -518,7 +518,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $59/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $59/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-3.jpg" alt="WalaNet">
@@ -539,7 +539,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $29/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $29/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-1.jpg" alt="WalaNet">
@@ -556,7 +556,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $49/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $49/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-2.jpg" alt="WalaNet">
@@ -573,7 +573,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $69/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $69/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-3.jpg" alt="WalaNet">
@@ -594,7 +594,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $19/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $19/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-1.jpg" alt="WalaNet">
@@ -611,7 +611,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $39/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $39/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-2.jpg" alt="WalaNet">
@@ -628,7 +628,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $59/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $59/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-3.jpg" alt="WalaNet">
@@ -649,7 +649,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $39/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $39/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-1.jpg" alt="WalaNet">
@@ -666,7 +666,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $59/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $59/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-2.jpg" alt="WalaNet">
@@ -683,7 +683,7 @@
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+923132004039?text=Olá WalaNet, estou interessado no $89/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $89/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
                                         <img src="assets/images/resources/package-1-3.jpg" alt="WalaNet">
@@ -909,8 +909,8 @@
 				"items": 5
 			}
 		}
-		}'>
-                <div class="item">
+		}' id="movie-list">
+                <!-- <div class="item">
                     <div class="movie-one__item">
                         <div class="movie-one__item__image">
                             <img src="assets/images/movie/movie-1-1.jpg" alt="WalaNet">
@@ -927,7 +927,7 @@
                             </ul>
                         </div>
                     </div>
-                </div><!-- item -->
+                </div>
                 <div class="item">
                     <div class="movie-one__item">
                         <div class="movie-one__item__image">
@@ -945,7 +945,7 @@
                             </ul>
                         </div>
                     </div>
-                </div><!-- item -->
+                </div>
                 <div class="item">
                     <div class="movie-one__item">
                         <div class="movie-one__item__image">
@@ -963,205 +963,7 @@
                             </ul>
                         </div>
                     </div>
-                </div><!-- item -->
-                <div class="item">
-                    <div class="movie-one__item">
-                        <div class="movie-one__item__image">
-                            <img src="assets/images/movie/movie-1-4.jpg" alt="WalaNet">
-                        </div>
-                        <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
-                            <i class="fa fa-play"></i>
-                            <i class="ripple"></i>
-                        </a>
-                        <div class="movie-one__item__content">
-                            <h3 class="movie-one__item__title"><a href="movie-details.php">The Way of Water</a></h3>
-                            <ul class="movie-one__item__list">
-                                <li><i class="fa fa-star"></i>6.8(Imdb)</li>
-                                <li>1hr : 30mins</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- item -->
-                <div class="item">
-                    <div class="movie-one__item">
-                        <div class="movie-one__item__image">
-                            <img src="assets/images/movie/movie-1-5.jpg" alt="WalaNet">
-                        </div>
-                        <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
-                            <i class="fa fa-play"></i>
-                            <i class="ripple"></i>
-                        </a>
-                        <div class="movie-one__item__content">
-                            <h3 class="movie-one__item__title"><a href="movie-details.php">The Dark Knight</a></h3>
-                            <ul class="movie-one__item__list">
-                                <li><i class="fa fa-star"></i>6.8(Imdb)</li>
-                                <li>1hr : 30mins</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- item -->
-                <div class="item">
-                    <div class="movie-one__item">
-                        <div class="movie-one__item__image">
-                            <img src="assets/images/movie/movie-1-6.jpg" alt="WalaNet">
-                        </div>
-                        <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
-                            <i class="fa fa-play"></i>
-                            <i class="ripple"></i>
-                        </a>
-                        <div class="movie-one__item__content">
-                            <h3 class="movie-one__item__title"><a href="movie-details.php">Avengers Endgame</a></h3>
-                            <ul class="movie-one__item__list">
-                                <li><i class="fa fa-star"></i>6.8(Imdb)</li>
-                                <li>1hr : 30mins</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- item -->
-                <div class="item">
-                    <div class="movie-one__item">
-                        <div class="movie-one__item__image">
-                            <img src="assets/images/movie/movie-1-7.jpg" alt="WalaNet">
-                        </div>
-                        <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
-                            <i class="fa fa-play"></i>
-                            <i class="ripple"></i>
-                        </a>
-                        <div class="movie-one__item__content">
-                            <h3 class="movie-one__item__title"><a href="movie-details.php">Scared to Death</a></h3>
-                            <ul class="movie-one__item__list">
-                                <li><i class="fa fa-star"></i>6.8(Imdb)</li>
-                                <li>1hr : 30mins</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- item -->
-                <div class="item">
-                    <div class="movie-one__item">
-                        <div class="movie-one__item__image">
-                            <img src="assets/images/movie/movie-1-1.jpg" alt="WalaNet">
-                        </div>
-                        <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
-                            <i class="fa fa-play"></i>
-                            <i class="ripple"></i>
-                        </a>
-                        <div class="movie-one__item__content">
-                            <h3 class="movie-one__item__title"><a href="movie-details.php">Broken city state</a></h3>
-                            <ul class="movie-one__item__list">
-                                <li><i class="fa fa-star"></i>6.8(Imdb)</li>
-                                <li>1hr : 30mins</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- item -->
-                <div class="item">
-                    <div class="movie-one__item">
-                        <div class="movie-one__item__image">
-                            <img src="assets/images/movie/movie-1-2.jpg" alt="WalaNet">
-                        </div>
-                        <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
-                            <i class="fa fa-play"></i>
-                            <i class="ripple"></i>
-                        </a>
-                        <div class="movie-one__item__content">
-                            <h3 class="movie-one__item__title"><a href="movie-details.php">Prem Ratan Dhan</a></h3>
-                            <ul class="movie-one__item__list">
-                                <li><i class="fa fa-star"></i>6.8(Imdb)</li>
-                                <li>1hr : 30mins</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- item -->
-                <div class="item">
-                    <div class="movie-one__item">
-                        <div class="movie-one__item__image">
-                            <img src="assets/images/movie/movie-1-3.jpg" alt="WalaNet">
-                        </div>
-                        <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
-                            <i class="fa fa-play"></i>
-                            <i class="ripple"></i>
-                        </a>
-                        <div class="movie-one__item__content">
-                            <h3 class="movie-one__item__title"><a href="movie-details.php">The Jungle Book</a></h3>
-                            <ul class="movie-one__item__list">
-                                <li><i class="fa fa-star"></i>6.8(Imdb)</li>
-                                <li>1hr : 30mins</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- item -->
-                <div class="item">
-                    <div class="movie-one__item">
-                        <div class="movie-one__item__image">
-                            <img src="assets/images/movie/movie-1-4.jpg" alt="WalaNet">
-                        </div>
-                        <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
-                            <i class="fa fa-play"></i>
-                            <i class="ripple"></i>
-                        </a>
-                        <div class="movie-one__item__content">
-                            <h3 class="movie-one__item__title"><a href="movie-details.php">The Way of Water</a></h3>
-                            <ul class="movie-one__item__list">
-                                <li><i class="fa fa-star"></i>6.8(Imdb)</li>
-                                <li>1hr : 30mins</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- item -->
-                <div class="item">
-                    <div class="movie-one__item">
-                        <div class="movie-one__item__image">
-                            <img src="assets/images/movie/movie-1-5.jpg" alt="WalaNet">
-                        </div>
-                        <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
-                            <i class="fa fa-play"></i>
-                            <i class="ripple"></i>
-                        </a>
-                        <div class="movie-one__item__content">
-                            <h3 class="movie-one__item__title"><a href="movie-details.php">The Dark Knight</a></h3>
-                            <ul class="movie-one__item__list">
-                                <li><i class="fa fa-star"></i>6.8(Imdb)</li>
-                                <li>1hr : 30mins</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- item -->
-                <div class="item">
-                    <div class="movie-one__item">
-                        <div class="movie-one__item__image">
-                            <img src="assets/images/movie/movie-1-6.jpg" alt="WalaNet">
-                        </div>
-                        <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
-                            <i class="fa fa-play"></i>
-                            <i class="ripple"></i>
-                        </a>
-                        <div class="movie-one__item__content">
-                            <h3 class="movie-one__item__title"><a href="movie-details.php">Avengers Endgame</a></h3>
-                            <ul class="movie-one__item__list">
-                                <li><i class="fa fa-star"></i>6.8(Imdb)</li>
-                                <li>1hr : 30mins</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- item -->
-                <div class="item">
-                    <div class="movie-one__item">
-                        <div class="movie-one__item__image">
-                            <img src="assets/images/movie/movie-1-7.jpg" alt="WalaNet">
-                        </div>
-                        <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
-                            <i class="fa fa-play"></i>
-                            <i class="ripple"></i>
-                        </a>
-                        <div class="movie-one__item__content">
-                            <h3 class="movie-one__item__title"><a href="movie-details.php">Scared to Death</a></h3>
-                            <ul class="movie-one__item__list">
-                                <li><i class="fa fa-star"></i>6.8(Imdb)</li>
-                                <li>1hr : 30mins</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- item -->
+                </div> -->
             </div>
         </section>
 
@@ -1615,7 +1417,7 @@
 
 
     <a title="Chat on WhatsApp"
-        href="https://wa.me/+923132004039?text=Olá WalaNet, tenho uma questão e gostaria de conversar."
+        href="https://wa.me/+258843736665?text=Olá WalaNet, tenho uma questão e gostaria de conversar."
         class="whatsapp-float-link"
         target="_blank">
         <i class="fab fa-whatsapp"></i>
@@ -1702,6 +1504,42 @@
             });
         });
     });
+
+//   fetch Streaming
+fetch('assets/js/streaming.json')
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById('movie-list');
+    data.forEach(item => {
+      const html = `
+        <div class="item">
+          <div class="movie-one__item">
+            <div class="movie-one__item__image">
+              <img src="${item.image}" alt="${item.title}" style="width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;" >
+            </div>
+            <a href="${item.video}" target="_blank" class="video-popup">
+              <i class="fa fa-play"></i>
+              <i class="ripple"></i>
+            </a>
+            <div class="movie-one__item__content">
+              <h3 class="movie-one__item__title"><a href="movie-details.php">${item.title}</a></h3>
+              <ul class="movie-one__item__list">
+                <li><i class="fa fa-star"></i>${item.imdb}(Imdb)</li>
+                <li>${item.time}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      `;
+      container.innerHTML += html;
+    });
+  })
+  .catch(error => console.error('Error loading JSON:', error));
+
+
 </script>
 
 <script type="module">
