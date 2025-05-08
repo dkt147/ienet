@@ -101,14 +101,14 @@ session_start(); // Must be the first thing in your script
                     <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a>
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list one-page-scroll-menu">
-                            <li class="scrollToLink current"><a href="#home">Home</a></li>
+                            <li class="scrollToLink current"><a href="./index-one-page.php">Home</a></li>
                             <!-- <li class="scrollToLink"><a href="#about">About</a></li> -->
-                            <li class="scrollToLink"><a href="#about">Service</a></li>
-                            <li class="scrollToLink"><a href="#packages">Packages</a></li>
+                            <li class="scrollToLink"><a href="//index-one-page.php#about">Service</a></li>
+                            <li class="scrollToLink"><a href="./index-one-page.php#packages">Packages</a></li>
                             <!-- <li class="scrollToLink"><a href="#movie">Movie</a></li> -->
                             <!-- <li class="scrollToLink"><a href="#movie">Online Streaming</a></li> -->
                             <!-- <li class="scrollToLink"><a href="#shop">Shop</a></li> -->
-                            <li class="scrollToLink"><a href="#movie" class="ienet-btn special"><span>Online Streaming<span class="ienet-btn__icon"><i class="fas fa-video"></i></span></span></a></li>
+                            <li class="scrollToLink"><a href="./index-one-page.php #movie" class="ienet-btn special"><span>Online Streaming<span class="ienet-btn__icon"><i class="fas fa-video"></i></span></span></a></li>
                             <li class="scrollToLink"><a href="products-left.php" class="ienet-btn special"><span>Shop<span class="ienet-btn__icon"><i class="fa fa-store"></i></span></span></a></li>
                             <!-- <li class="scrollToLink"><a href="#testimonial">Testimonial</a></li>
                             <li class="scrollToLink"><a href="#blog">Blog</a></li> -->
