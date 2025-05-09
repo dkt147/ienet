@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
             $mail->SMTPSecure = "ssl";
             $mail->Port = 465;
             $mail->setFrom('test@walanet.online', 'Admin');
-            $mail->addAddress($email, $email);
+            $mail->addAddress('test@walanet.online', 'New Request');
             $mail->isHTML(true);
             $mail->Subject = 'User Check Availability';
             $mail->Body = "<html><body><h3>New Request</h3><p><strong>$label:</strong> $email</p><p><strong>Location:</strong> $location</p></body></html>";

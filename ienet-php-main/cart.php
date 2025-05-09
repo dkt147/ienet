@@ -170,15 +170,16 @@ session_start(); // Must be the first thing in your script
                             <?php
                             if (!empty($_SESSION['cart'])):
                                 $cartItems = [];
-                                $formattedCartItems = "New Order Request: \n\n";  // Prepend this message to the cart details
+                                $formattedCartItems = "Solicitação de novo pedido: \n\n";  // Prepend this message to the cart details
+                                $total = 0;
 
                                 foreach ($_SESSION['cart'] as $item):
                                     $subtotal = $item['price'] * $item['quantity'];
-
+                                    $total = $total + $subtotal;
                                      // Append item details to the formatted string
-    $formattedCartItems .= "Name: " . $item['name'] . "\n";
-    $formattedCartItems .= "Price: " . $item['price'] . "\n";
-    $formattedCartItems .= "Quantity: " . $item['quantity'] . "\n";
+    $formattedCartItems .= "Nome: " . $item['name'] . "\n";
+    $formattedCartItems .= "Preço: " . $item['price'] . "\n";
+    $formattedCartItems .= "Quantidade: " . $item['quantity'] . "\n";
     $formattedCartItems .= "Subtotal: " . $subtotal . "\n\n"; // Add double newline for separation
 
 
@@ -219,6 +220,8 @@ session_start(); // Must be the first thing in your script
                                     </tr>
                                 <?php
                                 endforeach;
+    $formattedCartItems .= "Total: " . $total . "\n\n"; // Add double newline for separation
+
                                 $cartItemsJson = json_encode($cartItems);
                                 // $encodedCartItemsJson = urlencode($cartItemsJson);
 
