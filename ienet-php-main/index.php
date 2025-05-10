@@ -2,7 +2,23 @@
 <html lang="en">
 <?php
 session_start(); // Must be the first thing in your script
+function initErrorHandling() {
+    ini_set('display_errors', 1);              // Show errors
+    ini_set('display_startup_errors', 1);      // Show startup errors
+    error_reporting(E_ALL);                    // Report all PHP errors
 
+    set_error_handler(function ($severity, $message, $file, $line) {
+        throw new ErrorException($message, 0, $severity, $file, $line);
+    });
+
+    set_exception_handler(function ($exception) {
+        echo "<strong>Exception:</strong> " . $exception->getMessage() . "<br>";
+        echo "In file: " . $exception->getFile() . " on line " . $exception->getLine();
+    });
+}
+
+// Call this at the very beginning of your script
+initErrorHandling();
 // Rest of your PHP code
 ?>
 <head>
@@ -94,7 +110,7 @@ session_start(); // Must be the first thing in your script
             <div class="container-fluid">
                 <div class="main-header__inner">
                     <div class="main-header__logo">
-                        <a href="index-one-page.php">
+                        <a href="index.php">
                             <img src="assets/images/logo-light.png" alt="WalaNet HTML" height="80">
                         </a>
                     </div><!-- /.main-header__logo -->
@@ -1210,7 +1226,7 @@ session_start(); // Must be the first thing in your script
             </div><!-- /.main-footer__top -->
             <div class="container">
                 <div class="main-footer__middle">
-                    <a href="index-one-page.php">
+                    <a href="index.php">
                         <img src="assets/images/logo-light.png" height="80" alt="WalaNet HTML Template">
                     </a>
                     <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
@@ -1310,7 +1326,7 @@ session_start(); // Must be the first thing in your script
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index-one-page.php" aria-label="logo image"><img src="assets/images/logo-light.png" width="155" alt="" /></a>
+                <a href="index.php" aria-label="logo image"><img src="assets/images/logo-light.png" width="155" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -1369,7 +1385,7 @@ session_start(); // Must be the first thing in your script
         <div class="sidebar-one__content">
             <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
             <div class="sidebar-one__logo">
-                <a href="index-one-page.php" aria-label="logo image"><img src="assets/images/logo-light.png" alt="WalaNet HTML" height="80"></a>
+                <a href="index.php" aria-label="logo image"><img src="assets/images/logo-light.png" alt="WalaNet HTML" height="80"></a>
             </div><!-- /.sidebar-one__logo-box -->
             <p class="sidebar-one__text">
                 Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
@@ -1470,6 +1486,9 @@ session_start(); // Must be the first thing in your script
             placeholder: "Select an area...",
             allowClear: true
         });
+        const cartData = <?php echo json_encode($_SESSION['cart'] ?? []); ?>;
+        // Save to localStorage
+        localStorage.setItem('cart', JSON.stringify(cartData));
 
         $("#checkAvailabilityForm").on("click", function(e) {
             e.preventDefault();

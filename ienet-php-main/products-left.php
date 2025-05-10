@@ -2,7 +2,24 @@
 <html lang="en">
 <?php
 session_start(); // Must be the first thing in your script
+// print_r($_SESSION);
+function initErrorHandling() {
+    ini_set('display_errors', 1);              // Show errors
+    ini_set('display_startup_errors', 1);      // Show startup errors
+    error_reporting(E_ALL);                    // Report all PHP errors
 
+    set_error_handler(function ($severity, $message, $file, $line) {
+        throw new ErrorException($message, 0, $severity, $file, $line);
+    });
+
+    set_exception_handler(function ($exception) {
+        echo "<strong>Exception:</strong> " . $exception->getMessage() . "<br>";
+        echo "In file: " . $exception->getFile() . " on line " . $exception->getLine();
+    });
+}
+
+// Call this at the very beginning of your script
+initErrorHandling();
 // Rest of your PHP code
 ?>
 <head>
@@ -93,21 +110,21 @@ session_start(); // Must be the first thing in your script
             <div class="container-fluid">
                 <div class="main-header__inner">
                     <div class="main-header__logo">
-                        <a href="index-one-page.php">
+                        <a href="index.php">
                             <img src="assets/images/logo-dark.png" alt="Ienet HTML" height="80">
                         </a>
                     </div><!-- /.main-header__logo -->
                     <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a>
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list one-page-scroll-menu">
-                            <li class="scrollToLink current"><a href="./index-one-page.php">Home</a></li>
+                            <li class="scrollToLink current"><a onclick="window.location.assign('./index.php')">Home</a></li>
                             <!-- <li class="scrollToLink"><a href="#about">About</a></li> -->
-                            <li class="scrollToLink"><a href="./index-one-page.php#about">Service</a></li>
-                            <li class="scrollToLink"><a href="./index-one-page.php#packages">Packages</a></li>
+                            <li class="scrollToLink"><a onclick="window.location.assign('./index.php')">Service</a></li>
+                            <li class="scrollToLink"><a onclick="window.location.assign('./index.php')">Packages</a></li>
                             <!-- <li class="scrollToLink"><a href="#movie">Movie</a></li> -->
                             <!-- <li class="scrollToLink"><a href="#movie">Online Streaming</a></li> -->
                             <!-- <li class="scrollToLink"><a href="#shop">Shop</a></li> -->
-                            <li class="scrollToLink"><a href="./index-one-page.php #movie" class="ienet-btn special"><span>Online Streaming<span class="ienet-btn__icon"><i class="fas fa-video"></i></span></span></a></li>
+                            <li class="scrollToLink"><a onclick="window.location.assign('./index.php')" class="ienet-btn special"><span>Online Streaming<span class="ienet-btn__icon"><i class="fas fa-video"></i></span></span></a></li>
                             <li class="scrollToLink"><a href="products-left.php" class="ienet-btn special"><span>Shop<span class="ienet-btn__icon"><i class="fa fa-store"></i></span></span></a></li>
                             <!-- <li class="scrollToLink"><a href="#testimonial">Testimonial</a></li>
                             <li class="scrollToLink"><a href="#blog">Blog</a></li> -->
@@ -150,7 +167,7 @@ session_start(); // Must be the first thing in your script
             <div class="container">
                 <h2 class="page-header__title bw-split-in-left">Products Left Sidebar</h2><!-- /.page-title -->
                 <ul class="ienet-breadcrumb list-unstyled">
-                    <li><a href="index-one-page.php">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><span>Products</span></li>
                 </ul><!-- /.thm-breadcrumb list-unstyled -->
             </div><!-- /.container -->
@@ -265,7 +282,7 @@ session_start(); // Must be the first thing in your script
             </div><!-- /.main-footer__top -->
             <div class="container">
                 <div class="main-footer__middle">
-                    <a href="index-one-page.php">
+                    <a href="index.php">
                         <img src="assets/images/logo-light.png" height="80" alt="Ienet HTML Template">
                     </a>
                     <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
@@ -365,7 +382,7 @@ session_start(); // Must be the first thing in your script
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index-one-page.php" aria-label="logo image"><img src="assets/images/logo-light.png" width="155" alt="" /></a>
+                <a href="index.php" aria-label="logo image"><img src="assets/images/logo-light.png" width="155" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -424,7 +441,7 @@ session_start(); // Must be the first thing in your script
         <div class="sidebar-one__content">
             <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
             <div class="sidebar-one__logo">
-                <a href="index-one-page.php" aria-label="logo image"><img src="assets/images/logo-light.png" alt="Ienet HTML" height="80"></a>
+                <a href="index.php" aria-label="logo image"><img src="assets/images/logo-light.png" alt="Ienet HTML" height="80"></a>
             </div><!-- /.sidebar-one__logo-box -->
             <p class="sidebar-one__text">
                 Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
@@ -513,6 +530,10 @@ session_start(); // Must be the first thing in your script
 
 </html>
 <script type="module">
+     const cartData = <?php echo json_encode($_SESSION['cart'] ?? []); ?>;
+        // Save to localStorage
+        localStorage.setItem('cart', JSON.stringify(cartData));
+
     import { bindAddToCart } from './assets/js/add-to-cart.js';
 
     bindAddToCart(); // default selector and alert
