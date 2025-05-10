@@ -125,7 +125,15 @@ session_start(); // Must be the first thing in your script
                             <span class="sr-only">Search</span>
                         </a><!-- /.search-toggler -->
                         <a href="cart.php" class="main-header__cart">
-                        <i class="icon-cart" aria-hidden="true"></i> <span style="color:red" class="cartCounter"><?php echo count($_SESSION['cart'])?></span>
+                        <i class="icon-cart" aria-hidden="true"></i> 
+                        
+                        <span style="color:red" class="cartCounter"><?php 
+                            if(isset($_SESSION['cart'])){
+                                echo count($_SESSION['cart']);
+                            }
+                            
+                            ?></span>
+                            
                         <span class="sr-only">Cart</span>
                         </a><!-- /.cart-toggler -->
                         <div class="main-header__call">
