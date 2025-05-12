@@ -1,7 +1,7 @@
 // cart.js
 
 export function bindAddToCart(selector = '.add-to-cart-btn', callback = null, itemsPerPage = 6) {
-    
+
     $(document).ready(function () {
         $(document).on('click', `${selector}`, function (e) {
             e.preventDefault();

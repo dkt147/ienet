@@ -322,8 +322,8 @@ initErrorHandling();
 
         <footer class="main-footer background-black">
             <div class="main-footer__bg background-black" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
-            <div class="main-footer__shape-one" style="background-image: url(assets/images/resources/footer-shape-1.png);"></div>
-            <div class="main-footer__shape-two" style="background-image: url(assets/images/resources/footer-shape-2.png);"></div>
+              <div class="main-footer__shape-one" style="background-image: url(assets/images/resources/1.png);"></div>
+            <div class="main-footer__shape-two" style="background-image: url(assets/images/resources/2.png);"></div>
             <!-- /.main-footer__bg -->
             <div class="main-footer__top">
                 <div class="container">
@@ -418,24 +418,24 @@ initErrorHandling();
                     <div class="col-md-6 col-xl-3">
                         <div class="footer-widget footer-widget--gallery">
                             <h2 class="footer-widget__title">Our Gallery</h2><!-- /.footer-widget__title -->
-                            <div class="footer-widget__gallery">
+                             <div class="footer-widget__gallery">
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-1.jpg" alt="ienet">
+                                    <img src="assets/images/gallery/gallery1.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-2.jpg" alt="ienet">
+                                    <img src="assets/images/gallery/gallery2.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-3.jpg" alt="ienet">
+                                    <img src="assets/images/gallery/gallery3.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-4.jpg" alt="ienet">
+                                    <img src="assets/images/gallery/gallery4.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-5.jpg" alt="ienet">
+                                    <img src="assets/images/gallery/gallery5.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-6.jpg" alt="ienet">
+                                    <img src="assets/images/gallery/gallery6.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                             </div><!-- /.footer-widget__gallery -->
                         </div>

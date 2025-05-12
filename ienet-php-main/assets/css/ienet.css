@@ -12389,7 +12389,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 232px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/resources/page-banner-layer.png);
+  background-image: url(../images/resources/thumbnail.png);
   animation: movebounce2 3s linear 0s infinite;
 }
 @media (max-width: 1199px) {

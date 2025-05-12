@@ -22,6 +22,7 @@ function initErrorHandling() {
 initErrorHandling();
 // Rest of your PHP code
 ?>
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,7 +32,8 @@ initErrorHandling();
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.jpg" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.jpg" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Ienet is a multipurpose & unique HTML5 template. We especially designed for broadband internet services, satellite TV, Broadband, Online TV, Cable Television, Online Cinema and Movies, Voip, Wifi, Internet and TV store, Digital TV, Computer Networks, IPTV, Telecom company, CCTV and alternative Security, Networking Solution technology and all other internet businesses and websites." />
+    <meta name="description"
+        content="Ienet is a multipurpose & unique HTML5 template. We especially designed for broadband internet services, satellite TV, Broadband, Online TV, Cable Television, Online Cinema and Movies, Voip, Wifi, Internet and TV store, Digital TV, Computer Networks, IPTV, Telecom company, CCTV and alternative Security, Networking Solution technology and all other internet businesses and websites." />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,6 +58,29 @@ initErrorHandling();
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/ienet.css" />
+
+
+
+    <style>
+    .product__price-ranger {
+        max-width: 250px;
+        /* Adjust width as needed */
+        width: 100%;
+    }
+
+    .product__price-ranger .ranger-min-max-block {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 10px;
+    }
+
+    .product__price-ranger input.min,
+    .product__price-ranger input.max {
+        width: 60px;
+        text-align: center;
+    }
+    </style>
 </head>
 
 <body class="custom-cursor">
@@ -117,15 +142,21 @@ initErrorHandling();
                     <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a>
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list one-page-scroll-menu">
-                            <li class="scrollToLink current"><a onclick="window.location.assign('./index.php')">Home</a></li>
+                            <li class="scrollToLink current"><a onclick="window.location.assign('./index.php')">Home</a>
+                            </li>
                             <!-- <li class="scrollToLink"><a href="#about">About</a></li> -->
                             <li class="scrollToLink"><a onclick="window.location.assign('./index.php')">Service</a></li>
-                            <li class="scrollToLink"><a onclick="window.location.assign('./index.php')">Packages</a></li>
+                            <li class="scrollToLink"><a onclick="window.location.assign('./index.php')">Packages</a>
+                            </li>
                             <!-- <li class="scrollToLink"><a href="#movie">Movie</a></li> -->
                             <!-- <li class="scrollToLink"><a href="#movie">Online Streaming</a></li> -->
                             <!-- <li class="scrollToLink"><a href="#shop">Shop</a></li> -->
-                            <li class="scrollToLink"><a onclick="window.location.assign('./index.php')" class="ienet-btn special"><span>Online Streaming<span class="ienet-btn__icon"><i class="fas fa-video"></i></span></span></a></li>
-                            <li class="scrollToLink"><a href="products-left.php" class="ienet-btn special"><span>Shop<span class="ienet-btn__icon"><i class="fa fa-store"></i></span></span></a></li>
+                            <li class="scrollToLink"><a onclick="window.location.assign('./index.php')"
+                                    class="ienet-btn special"><span>Online Streaming<span class="ienet-btn__icon"><i
+                                                class="fas fa-video"></i></span></span></a></li>
+                            <li class="scrollToLink"><a href="products-left.php"
+                                    class="ienet-btn special"><span>Shop<span class="ienet-btn__icon"><i
+                                                class="fa fa-store"></i></span></span></a></li>
                             <!-- <li class="scrollToLink"><a href="#testimonial">Testimonial</a></li>
                             <li class="scrollToLink"><a href="#blog">Blog</a></li> -->
                         </ul>
@@ -175,18 +206,18 @@ initErrorHandling();
 
         <section class="product-one">
             <div class="container">
-                <div class="row ">
-                    <div class="col-xl-3 product-one__left">
-                        <div class="product__sidebar">
-                            <div class="product__search">
+                <!-- <div class="row "> -->
+                <!-- <div class="col-xl-3 product-one__left"> -->
+                <!-- <div class="product__sidebar"> -->
+                <!-- <div class="product__search">
                                 <form action="#">
                                     <input type="text" placeholder="Keywrord...">
                                     <button type="submit" aria-label="search submit">
                                         <span><i class="icon-search"></i></span>
                                     </button>
                                 </form>
-                            </div><!-- /.search-widget -->
-                            <div class="product__price-ranger">
+                            </div> /.search-widget -->
+                <!-- <div class="product__price-ranger">
                                 <h3 class="product__sidebar__title">Filter by price</h3>
                                 <form action="#" class="price-ranger">
                                     <div id="slider-range"></div>
@@ -196,8 +227,8 @@ initErrorHandling();
                                         <input type="text" readonly class="max">
                                     </div>
                                 </form>
-                            </div><!-- /.price-slider -->
-                            <div class="product__categories">
+                            </div> /.price-slider -->
+                <!-- <div class="product__categories">
                                 <h3 class="product__sidebar__title">Categories</h3>
                                 <ul class="list-unstyled">
                                     <li><a href="products.php"><span class="icon-arrow-point-to-right"></span>Kitchen Faucet</a></li>
@@ -206,42 +237,60 @@ initErrorHandling();
                                     <li><a href="products.php"><span class="icon-arrow-point-to-right"></span>Pressure Reducing</a></li>
                                     <li><a href="products.php"><span class="icon-arrow-point-to-right"></span>Water Softeners</a></li>
                                 </ul>
-                            </div><!-- /.category-widget -->
-                        </div><!-- /.shop-sidebar -->
-                    </div><!-- /.col-lg-3 -->
-                    <div class="col-xl-9">
-                        <div class="product__info-top">
-                            <div class="product__showing-text-box">
-                                <p class="product__showing-text">Showing 1–9 of 12 Results</p>
-                            </div>
-                            <div class="product__showing-sort">
-                                <select class="selectpicker" aria-label="Default Sorting">
-                                    <option selected>Default Sorting</option>
-                                    <option value="1">Sort by view</option>
-                                    <option value="2">Sort by price</option>
-                                    <option value="3">Sort by ratings</option>
-                                    <option value="4">Sort by popular</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="row gutter-y-30" id="product-list">
-                            
-                            <!-- /.col-md-12 -->
-                        </div><!-- /.row -->
-                        <div class="col-md-12">
-                            <ul class="post-pagination text-center product__pagination" id="pagination"></ul>
-                        </div>
+                            </div> -->
+                <!-- </div>  -->
+                <!-- </div>/.col-lg-3 -->
+                <!-- <div class="col-xl-9"> -->
+                <div class="product__info-top">
+                    <div class="product__showing-text-box">
+                        <p class="product__showing-text">Showing 1–9 of 12 Results</p>
                     </div>
-                    <!-- /.col-lg-9 -->
-                </div><!-- /.row -->
+                    <div class="product__search">
+                        <form id="search-form" action="javascript:void(0);">
+                            <input type="text" id="search-input" placeholder="Keyword..." />
+                            <button type="submit" aria-label="search submit">
+                                <span><i class="icon-search"></i></span>
+                            </button>
+                        </form>
+                    </div><!-- /.search-widget -->
+                    <div class="product__price-ranger">
+                        <h3 class="product__sidebar__title">Filter by price</h3>
+                        <form action="#" class="price-ranger">
+                            <div id="slider-range"></div>
+                            <div class="ranger-min-max-block">
+                                <input type="text" readonly class="min">
+                                <span>-</span>
+                                <input type="text" readonly class="max">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="product__showing-sort">
+                        <select class="selectpicker" aria-label="Default Sorting">
+                            <option selected>Default Sorting</option>
+                            <option value="1">Sort by view</option>
+                            <option value="2">Sort by price</option>
+                            <option value="3">Sort by ratings</option>
+                            <option value="4">Sort by popular</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row gutter-y-30" id="product-list"></div>
+
+
+                <div class="col-md-12">
+                    <ul class="post-pagination text-center product__pagination" id="pagination"></ul>
+                </div>
+
             </div><!-- /.container -->
-        </section><!-- /.product-one -->
+        </section>
+
 
         <footer class="main-footer background-black">
-            <div class="main-footer__bg background-black" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
-            <div class="main-footer__shape-one" style="background-image: url(assets/images/resources/footer-shape-1.png);"></div>
-            <div class="main-footer__shape-two" style="background-image: url(assets/images/resources/footer-shape-2.png);"></div>
+            <div class="main-footer__bg background-black"
+                style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
+            <div class="main-footer__shape-one" style="background-image: url(assets/images/resources/1.png);"></div>
+            <div class="main-footer__shape-two" style="background-image: url(assets/images/resources/2.png);"></div>
             <!-- /.main-footer__bg -->
             <div class="main-footer__top">
                 <div class="container">
@@ -306,7 +355,8 @@ initErrorHandling();
                             <p class="footer-widget__text">
                                 There are two main types: solar photovoltaic (PV) systems for electricity generation and
                             </p>
-                            <a href="about.php" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                            <a href="about.php" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i
+                                            class="fas fa-chevron-right"></i></span></span></a>
                         </div>
                     </div><!-- /.col-md-6 -->
                     <div class="col-md-6 col-xl-3">
@@ -338,22 +388,22 @@ initErrorHandling();
                             <h2 class="footer-widget__title">Our Gallery</h2><!-- /.footer-widget__title -->
                             <div class="footer-widget__gallery">
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-1.jpg" alt="ienet">
+                                    <img src="assets/images/gallery/gallery1.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-2.jpg" alt="ienet">
+                                    <img src="assets/images/gallery/gallery2.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-3.jpg" alt="ienet">
+                                    <img src="assets/images/gallery/gallery3.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-4.jpg" alt="ienet">
+                                    <img src="assets/images/gallery/gallery4.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-5.jpg" alt="ienet">
+                                    <img src="assets/images/gallery/gallery5.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-6.jpg" alt="ienet">
+                                    <img src="assets/images/gallery/gallery6.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                             </div><!-- /.footer-widget__gallery -->
                         </div>
@@ -382,7 +432,8 @@ initErrorHandling();
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.php" aria-label="logo image"><img src="assets/images/logo-light.png" width="155" alt="" /></a>
+                <a href="index.php" aria-label="logo image"><img src="assets/images/logo-light.png" width="155"
+                        alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -441,7 +492,8 @@ initErrorHandling();
         <div class="sidebar-one__content">
             <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
             <div class="sidebar-one__logo">
-                <a href="index.php" aria-label="logo image"><img src="assets/images/logo-light.png" alt="Ienet HTML" height="80"></a>
+                <a href="index.php" aria-label="logo image"><img src="assets/images/logo-light.png" alt="Ienet HTML"
+                        height="80"></a>
             </div><!-- /.sidebar-one__logo-box -->
             <p class="sidebar-one__text">
                 Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
@@ -526,15 +578,186 @@ initErrorHandling();
     <script src="assets/vendors/gsap/ienet-split.js"></script>
     <!-- template js -->
     <script src="assets/js/ienet.js"></script>
+
+
+    <!-- jQuery UI CSS -->
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+<!-- jQuery UI JS -->
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
 </body>
 
 </html>
 <script type="module">
-     const cartData = <?php echo json_encode($_SESSION['cart'] ?? []); ?>;
-        // Save to localStorage
-        localStorage.setItem('cart', JSON.stringify(cartData));
+const cartData = <?php echo json_encode($_SESSION['cart'] ?? []); ?>;
+// Save to localStorage
+localStorage.setItem('cart', JSON.stringify(cartData));
 
-    import { bindAddToCart } from './assets/js/add-to-cart.js';
+import {
+    bindAddToCart
+} from './assets/js/add-to-cart.js';
 
-    bindAddToCart(); // default selector and alert
+bindAddToCart(); // default selector and alert
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    let allProducts = [];
+    const container = document.getElementById('product-list');
+    const searchInput = document.getElementById('search-input');
+    
+    // Fetch products from JSON
+    fetch('./assets/js/product.json')
+        .then(response => response.json())
+        .then(products => {
+            allProducts = products;  // Store the products globally for later use
+            renderProducts(allProducts);  // Initial render without filtering
+        });
+
+    // Handle search functionality
+    searchInput.addEventListener('input', function () {
+        const keyword = searchInput.value.toLowerCase();
+        const filteredProducts = allProducts.filter(product => {
+            return product.title.toLowerCase().includes(keyword);
+        });
+        renderProducts(filteredProducts);  // Render the filtered products
+    });
+
+    // Function to render the filtered products
+    function renderProducts(products) {
+        container.innerHTML = '';  // Clear the container
+
+        products.forEach((product, index) => {
+            const delay = index * 100;  // For animation delay
+            const html = `
+                <div class="col-md-6 col-lg-4">
+                    <div class="product__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="${delay}ms">
+                        <div class="product__item__img">
+                            <img src="${product.image}" alt="${product.title}">
+                            <div class="product__item__btn">
+                                <a href="cart.php"><i class="far fa-heart"></i></a>
+                                <a href="product-details.php"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="product__item__content">
+                            <div class="product__item__ratings">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <h4 class="product__item__title"><a href="product-details.php">${product.title}</a></h4>
+                            <div class="product__item__price">$${product.price.toFixed(2)}</div>
+                            <a class="ienet-btn product__item__link add-to-cart-btn" data-id="${product.id}">
+                                <span>Add To Cart <span class="ienet-btn__icon"><i class="icon-cart"></i></span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.insertAdjacentHTML('beforeend', html);
+        });
+    }
+});
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    let allProducts = [];
+    const container = document.getElementById('product-list');
+    const searchInput = document.getElementById('search-input');
+
+    let minPrice = 0;
+    let maxPrice = 0;
+
+    // Fetch products from JSON
+    fetch('./assets/js/product.json')
+        .then(response => response.json())
+        .then(products => {
+            allProducts = products;
+            const prices = products.map(p => p.price);
+            minPrice = Math.min(...prices);
+            maxPrice = Math.max(...prices);
+
+            setupPriceSlider(minPrice, maxPrice);
+            renderProducts(allProducts);  // Initial render
+        });
+
+    function setupPriceSlider(min, max) {
+        $("#slider-range").slider({
+            range: true,
+            min: Math.floor(min),
+            max: Math.ceil(max),
+            values: [Math.floor(min), Math.ceil(max)],
+            slide: function (event, ui) {
+                $(".min").val("$" + ui.values[0]);
+                $(".max").val("$" + ui.values[1]);
+                filterProducts(searchInput.value, ui.values[0], ui.values[1]);
+            }
+        });
+
+        $(".min").val("$" + $("#slider-range").slider("values", 0));
+        $(".max").val("$" + $("#slider-range").slider("values", 1));
+    }
+
+    searchInput.addEventListener('input', function () {
+        const keyword = searchInput.value.toLowerCase();
+        const [min, max] = $("#slider-range").slider("values");
+        filterProducts(keyword, min, max);
+    });
+
+    function filterProducts(keyword, minPrice, maxPrice) {
+        const filtered = allProducts.filter(product => {
+            const titleMatch = product.title.toLowerCase().includes(keyword.toLowerCase());
+            const priceMatch = product.price >= minPrice && product.price <= maxPrice;
+            return titleMatch && priceMatch;
+        });
+        renderProducts(filtered);
+    }
+
+    function renderProducts(products) {
+        container.innerHTML = '';
+
+        if (products.length === 0) {
+            container.innerHTML = '<p>No products found matching your criteria.</p>';
+            return;
+        }
+
+        products.forEach((product, index) => {
+            const delay = index * 100;
+            const html = `
+                <div class="col-md-6 col-lg-4">
+                    <div class="product__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="${delay}ms">
+                        <div class="product__item__img">
+                            <img src="${product.image}" alt="${product.title}">
+                            <div class="product__item__btn">
+                                <a href="cart.php"><i class="far fa-heart"></i></a>
+                                <a href="product-details.php"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="product__item__content">
+                            <div class="product__item__ratings">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <h4 class="product__item__title"><a href="product-details.php">${product.title}</a></h4>
+                            <div class="product__item__price">$${product.price.toFixed(2)}</div>
+                            <a class="ienet-btn product__item__link add-to-cart-btn" data-id="${product.id}">
+                                <span>Add To Cart <span class="ienet-btn__icon"><i class="icon-cart"></i></span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.insertAdjacentHTML('beforeend', html);
+        });
+    }
+});
 </script>

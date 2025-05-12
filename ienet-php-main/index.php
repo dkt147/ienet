@@ -21,6 +21,7 @@ function initErrorHandling() {
 initErrorHandling();
 // Rest of your PHP code
 ?>
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +31,8 @@ initErrorHandling();
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.jpg" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.jpg" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="WalaNet is a multipurpose & unique HTML5 template. We especially designed for broadband internet services, satellite TV, Broadband, Online TV, Cable Television, Online Cinema and Movies, Voip, Wifi, Internet and TV store, Digital TV, Computer Networks, IPTV, Telecom company, CCTV and alternative Security, Networking Solution technology and all other internet businesses and websites." />
+    <meta name="description"
+        content="WalaNet is a multipurpose & unique HTML5 template. We especially designed for broadband internet services, satellite TV, Broadband, Online TV, Cable Television, Online Cinema and Movies, Voip, Wifi, Internet and TV store, Digital TV, Computer Networks, IPTV, Telecom company, CCTV and alternative Security, Networking Solution technology and all other internet businesses and websites." />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -124,8 +126,12 @@ initErrorHandling();
                             <!-- <li class="scrollToLink"><a href="#movie">Movie</a></li> -->
                             <!-- <li class="scrollToLink"><a href="#movie">Online Streaming</a></li> -->
                             <!-- <li class="scrollToLink"><a href="#shop">Shop</a></li> -->
-                            <li class="scrollToLink"><a href="#movie" class="ienet-btn special"><span>Online Streaming<span class="ienet-btn__icon"><i class="fas fa-video"></i></span></span></a></li>
-                            <li class="scrollToLink"><a href="products-left.php" class="ienet-btn special"><span>Shop<span class="ienet-btn__icon"><i class="fa fa-store"></i></span></span></a></li>
+                            <li class="scrollToLink"><a href="#movie" class="ienet-btn special"><span>Online
+                                        Streaming<span class="ienet-btn__icon"><i
+                                                class="fas fa-video"></i></span></span></a></li>
+                            <li class="scrollToLink"><a href="products-left.php"
+                                    class="ienet-btn special"><span>Shop<span class="ienet-btn__icon"><i
+                                                class="fa fa-store"></i></span></span></a></li>
                             <!-- <li class="scrollToLink"><a href="#testimonial">Testimonial</a></li>
                             <li class="scrollToLink"><a href="#blog">Blog</a></li> -->
                         </ul>
@@ -141,7 +147,7 @@ initErrorHandling();
                             <span class="sr-only">Search</span>
                         </a><!-- /.search-toggler -->
                         <a href="cart.php" class="main-header__cart">
-                            <i class="icon-cart" aria-hidden="true"></i> 
+                            <i class="icon-cart" aria-hidden="true"></i>
                             <span style="color:red" class="cartCounter"><?php 
                             if(isset($_SESSION['cart'])){
                                 echo count($_SESSION['cart']);
@@ -176,18 +182,27 @@ initErrorHandling();
                     }'>
                 <div class="item">
                     <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/family-creating-digital-content.jpg);"></div>
+                        <div class="main-slider-one__bg"
+                            style="background-image: url(assets/images/backgrounds/family-creating-digital-content.jpg);">
+                        </div>
                         <div class="main-slider-one__content">
-                            <h5 class="main-slider-one__sub-title"><span class="main-slider-one__sub-title__border"></span>Connecting the World</h5>
+                            <h5 class="main-slider-one__sub-title"><span
+                                    class="main-slider-one__sub-title__border"></span>Connecting the World</h5>
                             <!-- slider-sub-title -->
-                            <h2 class="main-slider-one__title">Your Gateway to the<br> Digital Universe</h2><!-- slider-title -->
+                            <h2 class="main-slider-one__title">Your Gateway to the<br> Digital Universe</h2>
+                            <!-- slider-title -->
                             <p class="main-slider-one__text">
-                                Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a consectetuhorz-1r tortor<br>
+                                Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a
+                                consectetuhorz-1r tortor<br>
                                 varius in. Sed tincidunt aliquet lorem, eget tincidunt est molestie non. 
                             </p><!-- slider-tex -->
                             <div class="main-slider-one__btn">
-                                <a href="services.php" class="ienet-btn main-slider-one__btn__first"><span>our service<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a><!-- slider-btn -->
-                                <a href="packages.php" class="ienet-btn main-slider-one__btn__last"><span><span class="ienet-btn__icon ienet-btn__icon--left"><i class="fas fa-gem"></i></span>browse plan</span></a><!-- slider-btn -->
+                                <a href="services.php" class="ienet-btn main-slider-one__btn__first"><span>our
+                                        service<span class="ienet-btn__icon"><i
+                                                class="fas fa-chevron-right"></i></span></span></a><!-- slider-btn -->
+                                <a href="packages.php" class="ienet-btn main-slider-one__btn__last"><span><span
+                                            class="ienet-btn__icon ienet-btn__icon--left"><i
+                                                class="fas fa-gem"></i></span>browse plan</span></a><!-- slider-btn -->
                             </div>
                         </div>
                         <div class="main-slider-one__image">
@@ -200,9 +215,9 @@ initErrorHandling();
                             <div class="main-slider-one__image__user">
                                 <div class="main-slider-one__image__user__text">2.5M happy user</div>
                                 <div class="main-slider-one__image__user__image">
-                                    <img src="assets/images/resources/user-1.png" alt="WalaNet">
-                                    <img src="assets/images/resources/user-2.png" alt="WalaNet">
-                                    <img src="assets/images/resources/user-3.png" alt="WalaNet">
+                                    <img src="assets/images/resources/user1.png" alt="WalaNet">
+                                    <img src="assets/images/resources/user2.png" alt="WalaNet">
+                                    <img src="assets/images/resources/user3.png" alt="WalaNet">
                                     <span class="main-slider-one__image__user__rm">+65</span>
                                 </div>
                             </div>
@@ -212,18 +227,27 @@ initErrorHandling();
                 </div>
                 <div class="item">
                     <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/family-creating-digital-content.jpg);"></div>
+                        <div class="main-slider-one__bg"
+                            style="background-image: url(assets/images/backgrounds/family-creating-digital-content.jpg);">
+                        </div>
                         <div class="main-slider-one__content">
-                            <h5 class="main-slider-one__sub-title"><span class="main-slider-one__sub-title__border"></span>Connecting the World</h5>
+                            <h5 class="main-slider-one__sub-title"><span
+                                    class="main-slider-one__sub-title__border"></span>Connecting the World</h5>
                             <!-- slider-sub-title -->
-                            <h2 class="main-slider-one__title">Your Gateway to the<br> Digital Universe</h2><!-- slider-title -->
+                            <h2 class="main-slider-one__title">Your Gateway to the<br> Digital Universe</h2>
+                            <!-- slider-title -->
                             <p class="main-slider-one__text">
-                                Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a consectetur tortor<br>
+                                Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a
+                                consectetur tortor<br>
                                 varius in. Sed tincidunt aliquet lorem, eget tincidunt est molestie non. 
                             </p><!-- slider-tex -->
                             <div class="main-slider-one__btn">
-                                <a href="services.php" class="ienet-btn main-slider-one__btn__first"><span>our service<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a><!-- slider-btn -->
-                                <a href="packages.php" class="ienet-btn main-slider-one__btn__last"><span><span class="ienet-btn__icon ienet-btn__icon--left"><i class="fas fa-gem"></i></span>browse plan</span></a><!-- slider-btn -->
+                                <a href="services.php" class="ienet-btn main-slider-one__btn__first"><span>our
+                                        service<span class="ienet-btn__icon"><i
+                                                class="fas fa-chevron-right"></i></span></span></a><!-- slider-btn -->
+                                <a href="packages.php" class="ienet-btn main-slider-one__btn__last"><span><span
+                                            class="ienet-btn__icon ienet-btn__icon--left"><i
+                                                class="fas fa-gem"></i></span>browse plan</span></a><!-- slider-btn -->
                             </div>
                         </div>
                         <div class="main-slider-one__image">
@@ -236,9 +260,9 @@ initErrorHandling();
                             <div class="main-slider-one__image__user">
                                 <div class="main-slider-one__image__user__text">2.5M happy user</div>
                                 <div class="main-slider-one__image__user__image">
-                                    <img src="assets/images/resources/user-1.png" alt="WalaNet">
-                                    <img src="assets/images/resources/user-2.png" alt="WalaNet">
-                                    <img src="assets/images/resources/user-3.png" alt="WalaNet">
+                                    <img src="assets/images/resources/user1.png" alt="WalaNet">
+                                    <img src="assets/images/resources/user2.png" alt="WalaNet">
+                                    <img src="assets/images/resources/user3.png" alt="WalaNet">
                                     <span class="main-slider-one__image__user__rm">+65</span>
                                 </div>
                             </div>
@@ -248,18 +272,27 @@ initErrorHandling();
                 </div>
                 <div class="item">
                     <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/family-creating-digital-content.jpg);"></div>
+                        <div class="main-slider-one__bg"
+                            style="background-image: url(assets/images/backgrounds/family-creating-digital-content.jpg);">
+                        </div>
                         <div class="main-slider-one__content">
-                            <h5 class="main-slider-one__sub-title"><span class="main-slider-one__sub-title__border"></span>Connecting the World</h5>
+                            <h5 class="main-slider-one__sub-title"><span
+                                    class="main-slider-one__sub-title__border"></span>Connecting the World</h5>
                             <!-- slider-sub-title -->
-                            <h2 class="main-slider-one__title">Your Gateway to the<br> Digital Universe</h2><!-- slider-title -->
+                            <h2 class="main-slider-one__title">Your Gateway to the<br> Digital Universe</h2>
+                            <!-- slider-title -->
                             <p class="main-slider-one__text">
-                                Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a consectetur tortor<br>
+                                Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a
+                                consectetur tortor<br>
                                 varius in. Sed tincidunt aliquet lorem, eget tincidunt est molestie non. 
                             </p><!-- slider-tex -->
                             <div class="main-slider-one__btn">
-                                <a href="services.php" class="ienet-btn main-slider-one__btn__first"><span>our service<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a><!-- slider-btn -->
-                                <a href="packages.php" class="ienet-btn main-slider-one__btn__last"><span><span class="ienet-btn__icon ienet-btn__icon--left"><i class="fas fa-gem"></i></span>browse plan</span></a><!-- slider-btn -->
+                                <a href="services.php" class="ienet-btn main-slider-one__btn__first"><span>our
+                                        service<span class="ienet-btn__icon"><i
+                                                class="fas fa-chevron-right"></i></span></span></a><!-- slider-btn -->
+                                <a href="packages.php" class="ienet-btn main-slider-one__btn__last"><span><span
+                                            class="ienet-btn__icon ienet-btn__icon--left"><i
+                                                class="fas fa-gem"></i></span>browse plan</span></a><!-- slider-btn -->
                             </div>
                         </div>
                         <div class="main-slider-one__image">
@@ -272,9 +305,9 @@ initErrorHandling();
                             <div class="main-slider-one__image__user">
                                 <div class="main-slider-one__image__user__text">2.5M happy user</div>
                                 <div class="main-slider-one__image__user__image">
-                                    <img src="assets/images/resources/user-1.png" alt="WalaNet">
-                                    <img src="assets/images/resources/user-2.png" alt="WalaNet">
-                                    <img src="assets/images/resources/user-3.png" alt="WalaNet">
+                                    <img src="assets/images/resources/user1.png" alt="WalaNet">
+                                    <img src="assets/images/resources/user2.png" alt="WalaNet">
+                                    <img src="assets/images/resources/user3.png" alt="WalaNet">
                                     <span class="main-slider-one__image__user__rm">+65</span>
                                 </div>
                             </div>
@@ -287,7 +320,7 @@ initErrorHandling();
         <!-- main-slider-end -->
 
         <section class="about-one" style="background-image: url(assets/images/shapes/about-1-bg.png);" id="about">
-            <div class="about-one__shape" style="background-image: url(assets/images/resources/about-shape-1.png);"></div>
+            <div class="about-one__shape" style="background-image: url(assets/images/resources/aboutus.png);"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6">
@@ -296,9 +329,11 @@ initErrorHandling();
                                 <img src="assets/images/resources/network.png" alt="WalaNet">
                             </div>
                             <div class="about-one__image__bg"></div>
-                            <div class="about-one__image__border" style="background-image: url(assets/images/shapes/about-1-border.png);"></div>
+                            <div class="about-one__image__border"
+                                style="background-image: url(assets/images/shapes/about-1-border.png);"></div>
                             <div class="about-one__image__two">
-                                <div class="about-one__image__two__inner"><img src="assets/images/resources/network209.jpg" alt="WalaNet"></div>
+                                <div class="about-one__image__two__inner"><img
+                                        src="assets/images/resources/network209.jpg" alt="WalaNet"></div>
                             </div>
                         </div><!-- /.about-one__image -->
                     </div><!-- /.col-lg-6 -->
@@ -306,13 +341,19 @@ initErrorHandling();
                         <div class="about-one__content">
                             <div class="sec-title text-left">
 
-                                <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>About Our Internet<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                                <h6 class="sec-title__tagline bw-split-in-right"><span
+                                        class="sec-title__tagline__left-border"></span>About Our Internet<span
+                                        class="sec-title__tagline__right-border"></span></h6>
+                                <!-- /.sec-title__tagline -->
 
-                                <h3 class="sec-title__title bw-split-in-left">We Provide <span>Unlimited</span> Network For You.</h3><!-- /.sec-title__title -->
+                                <h3 class="sec-title__title bw-split-in-left">We Provide <span>Unlimited</span> Network
+                                    For You.</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <p class="about-one__content__text">
-                                Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a consectetur tortor varius in. Sed tincidunt
-                                aliquet lorem, eget tincidunt est molestie non. Sed tincidunt aliquet lorem, eget tincidunt est molestie nonac luctus orci ultrices at.
+                                Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a
+                                consectetur tortor varius in. Sed tincidunt
+                                aliquet lorem, eget tincidunt est molestie non. Sed tincidunt aliquet lorem, eget
+                                tincidunt est molestie nonac luctus orci ultrices at.
                             </p>
                             <ul class="about-one__content__list">
                                 <li><span class="fas fa-check"></span>Super-Fast Dongle</li>
@@ -320,7 +361,8 @@ initErrorHandling();
                                 <li><span class="fas fa-check"></span>Prepaid SIM</li>
                                 <li><span class="fas fa-check"></span>5G Updations</li>
                             </ul>
-                            <a href="about.php" class="ienet-btn"><span>More About Us<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                            <a href="about.php" class="ienet-btn"><span>More About Us<span class="ienet-btn__icon"><i
+                                            class="fas fa-chevron-right"></i></span></span></a>
                         </div><!-- /.about-one__content -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
@@ -328,7 +370,8 @@ initErrorHandling();
         </section><!-- /.about-one -->
 
         <section class="packages-one" id="packages">
-            <div class="packages-one__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%" style="background-image: url(assets/images/backgrounds/img-about.jpg);"></div>
+            <div class="packages-one__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%"
+                style="background-image: url(assets/images/backgrounds/img-about.jpg);"></div>
             <!-- /.packages-one__bg -->
             <div class="container tabs-box">
                 <ul class="packages-one__wrapper">
@@ -367,13 +410,17 @@ initErrorHandling();
                     <div class="col-md-8">
                         <div class="sec-title text-left">
 
-                            <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>Our Best Plan<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                            <h6 class="sec-title__tagline bw-split-in-right"><span
+                                    class="sec-title__tagline__left-border"></span>Our Best Plan<span
+                                    class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
 
-                            <h3 class="sec-title__title bw-split-in-left">Select Your <span>Best Plan</span></h3><!-- /.sec-title__title -->
+                            <h3 class="sec-title__title bw-split-in-left">Select Your <span>Best Plan</span></h3>
+                            <!-- /.sec-title__title -->
                         </div><!-- /.sec-title -->
                     </div>
                     <div class="col-md-4">
-                        <a href="packages.php" class="ienet-btn"><span>View All Service<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                        <a href="packages.php" class="ienet-btn"><span>View All Service<span class="ienet-btn__icon"><i
+                                        class="fas fa-chevron-right"></i></span></span></a>
                     </div>
                 </div>
                 <ul class="packages-one__list tab-buttons list-unstyled">
@@ -397,13 +444,16 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $9/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $9/Basic Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <!-- <span class="blog-card__whatsapp m-2 bg-success" style="cursor: pointer;"
                                         onclick="window.open('http:/\/\wa.me/+258843736665?text=Hi%20there%2C%20I%20want%20to%20place%20an%20order', '_blank')"><i class="fab fa-whatsapp"></i></span> -->
 
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -417,10 +467,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $12/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $12/corporate Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -434,10 +487,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $15/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $15/Dedicated Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -455,10 +511,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $12/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $12/Basic Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -472,10 +531,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $35/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $35/corporate Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -489,10 +551,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $20/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $20/Dedicated Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -510,10 +575,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $19/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $19/Basic Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -527,10 +595,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $39/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $39/corporate Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -544,10 +615,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $59/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $59/Dedicated Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -565,10 +639,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $29/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $29/Basic Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -582,10 +659,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $49/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $49/corporate Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -599,10 +679,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $69/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $69/Dedicated Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -620,10 +703,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $19/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $19/Basic Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -637,10 +723,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $39/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $39/corporate Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -654,10 +743,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $59/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $59/Dedicated Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -675,10 +767,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $39/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $39/Basic Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -692,10 +787,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $59/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $59/corporate Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -709,10 +807,13 @@ initErrorHandling();
                                         <li><span class="fas fa-check"></span>Fiber Optics</li>
                                         <li><span class="fas fa-check"></span>OTC-Free</li>
                                     </ul>
-                                    <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $89/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    <a class="packages-one__card__rm"
+                                        href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $89/Dedicated Package. Por favor, forneça mais detalhes"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg"
+                                            alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -727,9 +828,12 @@ initErrorHandling();
             <div class="container">
                 <div class="sec-title text-center">
 
-                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>Our facility<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                    <h6 class="sec-title__tagline bw-split-in-right"><span
+                            class="sec-title__tagline__left-border"></span>Our facility<span
+                            class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
 
-                    <h3 class="sec-title__title bw-split-in-left">Our Special <span>Features</span></h3><!-- /.sec-title__title -->
+                    <h3 class="sec-title__title bw-split-in-left">Our Special <span>Features</span></h3>
+                    <!-- /.sec-title__title -->
                 </div><!-- /.sec-title -->
                 <div class="row">
                     <div class="col-lg-4 wow fadeInLeft" data-wow-delay="00ms">
@@ -797,30 +901,36 @@ initErrorHandling();
         <!-- Feature End -->
 
         <section class="mail-one">
-            <div class="mail-one__bg" style="background-image: url(assets/images/backgrounds/img-connectivity.jpg);"></div>
+            <div class="mail-one__bg" style="background-image: url(assets/images/backgrounds/img-connectivity.jpg);">
+            </div>
             <!-- /.movie-one__bg -->
-            <div class="mail-one__shape-left" style="background-image: url(assets/images/resources/thumbnail-connectivity.jpg);"></div>
+            <div class="mail-one__shape-left"
+                style="background-image: url(assets/images/resources/thumbnail-connectivity.jpg);"></div>
             <div class="mail-one__shape-right" style="background-image: url(assets/images/resources/horz-1.jpg);"></div>
             <div class="container">
                 <div class="mail-one__content">
                     <div class="sec-title text-left">
 
-                        <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>check your area<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                        <h6 class="sec-title__tagline bw-split-in-right"><span
+                                class="sec-title__tagline__left-border"></span>check your area<span
+                                class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
 
-                        <h3 class="sec-title__title bw-split-in-left">Check Availability In <span>Your City</span></h3><!-- /.sec-title__title -->
+                        <h3 class="sec-title__title bw-split-in-left">Check Availability In <span>Your City</span></h3>
+                        <!-- /.sec-title__title -->
                     </div><!-- /.sec-title -->
                     <form action="" class="mail-one__newsletter mc-form">
                         <select name="location" id="locationCheck" class="select2-select form-control">
                             <?php
                             $areas = json_decode(file_get_contents('location.json'), true);
                             foreach ($areas as $area): ?>
-                                <option value="<?= htmlspecialchars($area) ?>"><?= htmlspecialchars($area) ?></option>
+                            <option value="<?= htmlspecialchars($area) ?>"><?= htmlspecialchars($area) ?></option>
                             <?php endforeach; ?>
                         </select>
                         <br>
                         <input type="text" name="EMAIL" id="emailCheck" placeholder="Enter Your Email OR WhatsApp">
                         <span class="mail-one__newsletter__icon"><i class="icon-location"></i></span>
-                        <button type="button" id="checkAvailabilityForm" class="ienet-btn"><span>Check Availability</span></button>
+                        <button type="button" id="checkAvailabilityForm" class="ienet-btn"><span>Check
+                                Availability</span></button>
 
                         <!-- ✅ Flash message will appear here -->
                         <div id="formMessage" style="margin-top: 10px;"></div>
@@ -853,15 +963,22 @@ initErrorHandling();
                         <div class="cta-one__content">
                             <div class="sec-title text-left">
 
-                                <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>save your money<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                                <h6 class="sec-title__tagline bw-split-in-right"><span
+                                        class="sec-title__tagline__left-border"></span>save your money<span
+                                        class="sec-title__tagline__right-border"></span></h6>
+                                <!-- /.sec-title__tagline -->
 
-                                <h3 class="sec-title__title bw-split-in-left">Save Money Your <span>Internet</span> Service With TV Service</h3><!-- /.sec-title__title -->
+                                <h3 class="sec-title__title bw-split-in-left">Save Money Your <span>Internet</span>
+                                    Service With TV Service</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <p class="cta-one__content__text">
-                                Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a consectetur tortor varius in.
-                                Sed tincidunt aliquet lorem, eget tincidunt est molestie non. Sed tincidunt aliquet lorem, eget tincidunt est molestie
+                                Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a
+                                consectetur tortor varius in.
+                                Sed tincidunt aliquet lorem, eget tincidunt est molestie non. Sed tincidunt aliquet
+                                lorem, eget tincidunt est molestie
                             </p>
-                            <a href="about.php" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                            <a href="about.php" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i
+                                            class="fas fa-chevron-right"></i></span></span></a>
                         </div>
                     </div>
                 </div>
@@ -1000,7 +1117,7 @@ initErrorHandling();
         </section>  -->
 
         <section class="faq-one">
-            <div class="faq-one__shape" style="background-image: url(assets/images/resources/faq-shape-1.png);"></div>
+            <div class="faq-one__shape" style="background-image: url(assets/images/resources/team.png);"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -1015,7 +1132,8 @@ initErrorHandling();
                                 <div class="accrodion-content">
                                     <div class="inner">
                                         <p>
-                                            Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward,
+                                            Bring to the table win-win survival strategies to ensure proactive
+                                            domination. At the end of the day, going forward,
                                             a new normal that has evolved from generation X is on the
                                         </p>
                                     </div><!-- /.accordian-content -->
@@ -1031,7 +1149,8 @@ initErrorHandling();
                                 <div class="accrodion-content">
                                     <div class="inner">
                                         <p>
-                                            Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward,
+                                            Bring to the table win-win survival strategies to ensure proactive
+                                            domination. At the end of the day, going forward,
                                             a new normal that has evolved from generation X is on the
                                         </p>
                                     </div><!-- /.accordian-content -->
@@ -1047,7 +1166,8 @@ initErrorHandling();
                                 <div class="accrodion-content">
                                     <div class="inner">
                                         <p>
-                                            Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward,
+                                            Bring to the table win-win survival strategies to ensure proactive
+                                            domination. At the end of the day, going forward,
                                             a new normal that has evolved from generation X is on the
                                         </p>
                                     </div><!-- /.accordian-content -->
@@ -1063,7 +1183,8 @@ initErrorHandling();
                                 <div class="accrodion-content">
                                     <div class="inner">
                                         <p>
-                                            Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward,
+                                            Bring to the table win-win survival strategies to ensure proactive
+                                            domination. At the end of the day, going forward,
                                             a new normal that has evolved from generation X is on the
                                         </p>
                                     </div><!-- /.accordian-content -->
@@ -1075,9 +1196,13 @@ initErrorHandling();
                         <div class="faq-one__content">
                             <div class="sec-title text-left">
 
-                                <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>frequently asked questions<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                                <h6 class="sec-title__tagline bw-split-in-right"><span
+                                        class="sec-title__tagline__left-border"></span>frequently asked questions<span
+                                        class="sec-title__tagline__right-border"></span></h6>
+                                <!-- /.sec-title__tagline -->
 
-                                <h3 class="sec-title__title bw-split-in-left">Why Should <span>Work</span> With Us</h3><!-- /.sec-title__title -->
+                                <h3 class="sec-title__title bw-split-in-left">Why Should <span>Work</span> With Us</h3>
+                                <!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <!-- section-title -->
                             <div class="faq-one__content__box">
@@ -1087,7 +1212,8 @@ initErrorHandling();
                                     Nulla facilisi. Pellentesque imperdiet,<br> sem et commodo interdum, justo velit.
                                 </p>
                             </div>
-                            <div class="faq-one__video" style="background-image: url(assets/images/resources/wokwithus.png);">
+                            <div class="faq-one__video"
+                                style="background-image: url(assets/images/resources/wokwithus.png);">
                                 <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
                                     <i class="fa fa-play"></i>
                                     <i class="ripple"></i>
@@ -1111,17 +1237,20 @@ initErrorHandling();
             <div class="container">
                 <div class="sec-title text-center">
 
-                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>latest Products<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                    <h6 class="sec-title__tagline bw-split-in-right"><span
+                            class="sec-title__tagline__left-border"></span>latest Products<span
+                            class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
 
-                    <h3 class="sec-title__title bw-split-in-left">Our Latest <span>Products</span> News</h3><!-- /.sec-title__title -->
+                    <h3 class="sec-title__title bw-split-in-left">Our Latest <span>Products</span> News</h3>
+                    <!-- /.sec-title__title -->
                 </div><!-- /.sec-title -->
                 <div class="row">
-                <div class="col-xl-12">
-                <div style="text-align: right;">
-                 <div class="btn text-center" onclick="location.assign('products-left.php')">
-                       <p>See More >></p>
-                  </div>
-                </div>
+                    <div class="col-xl-12">
+                        <div style="text-align: right;">
+                            <div class="btn text-center" onclick="location.assign('products-left.php')">
+                                <p>See More >></p>
+                            </div>
+                        </div>
                         <div class="row gutter-y-30 " id="product-list">
                             <!-- <div class="col-md-6 col-lg-4">
                                 <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
@@ -1185,13 +1314,14 @@ initErrorHandling();
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.blog-one -->
-<br>
-     
+        <br>
+
 
         <footer class="main-footer background-black">
-            <div class="main-footer__bg background-black" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
-            <div class="main-footer__shape-one" style="background-image: url(assets/images/resources/footer-shape-1.png);"></div>
-            <div class="main-footer__shape-two" style="background-image: url(assets/images/resources/footer-shape-2.png);"></div>
+            <div class="main-footer__bg background-black"
+                style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
+            <div class="main-footer__shape-one" style="background-image: url(assets/images/resources/1.png);"></div>
+            <div class="main-footer__shape-two" style="background-image: url(assets/images/resources/2.png);"></div>
             <!-- /.main-footer__bg -->
             <div class="main-footer__top">
                 <div class="container">
@@ -1256,7 +1386,8 @@ initErrorHandling();
                             <p class="footer-widget__text">
                                 There are two main types: solar photovoltaic (PV) systems for electricity generation and
                             </p>
-                            <a href="about.php" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                            <a href="about.php" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i
+                                            class="fas fa-chevron-right"></i></span></span></a>
                         </div>
                     </div><!-- /.col-md-6 -->
                     <div class="col-md-6 col-xl-3">
@@ -1288,22 +1419,22 @@ initErrorHandling();
                             <h2 class="footer-widget__title">Our Gallery</h2><!-- /.footer-widget__title -->
                             <div class="footer-widget__gallery">
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-1.jpg" alt="WalaNet">
+                                    <img src="assets/images/gallery/gallery1.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-2.jpg" alt="WalaNet">
+                                    <img src="assets/images/gallery/gallery2.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-3.jpg" alt="WalaNet">
+                                    <img src="assets/images/gallery/gallery3.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-4.jpg" alt="WalaNet">
+                                    <img src="assets/images/gallery/gallery4.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-5.jpg" alt="WalaNet">
+                                    <img src="assets/images/gallery/gallery5.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                                 <a href="gallery.php" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-6.jpg" alt="WalaNet">
+                                    <img src="assets/images/gallery/gallery6.png" alt="WalaNet">
                                 </a><!-- /.footer-widget__gallery__link -->
                             </div><!-- /.footer-widget__gallery -->
                         </div>
@@ -1332,7 +1463,8 @@ initErrorHandling();
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.php" aria-label="logo image"><img src="assets/images/logo-light.png" width="155" alt="" /></a>
+                <a href="index.php" aria-label="logo image"><img src="assets/images/logo-light.png" width="155"
+                        alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -1391,7 +1523,8 @@ initErrorHandling();
         <div class="sidebar-one__content">
             <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
             <div class="sidebar-one__logo">
-                <a href="index.php" aria-label="logo image"><img src="assets/images/logo-light.png" alt="WalaNet HTML" height="80"></a>
+                <a href="index.php" aria-label="logo image"><img src="assets/images/logo-light.png" alt="WalaNet HTML"
+                        height="80"></a>
             </div><!-- /.sidebar-one__logo-box -->
             <p class="sidebar-one__text">
                 Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
@@ -1450,8 +1583,7 @@ initErrorHandling();
 
     <a title="Chat on WhatsApp"
         href="https://wa.me/+258843736665?text=Olá WalaNet, tenho uma questão e gostaria de conversar."
-        class="whatsapp-float-link"
-        target="_blank">
+        class="whatsapp-float-link" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
 
@@ -1516,10 +1648,14 @@ initErrorHandling();
 
                     if (data.status == 200) {
                         // Display success message below the submit button
-                        $("#formMessage").html('<div class="alert alert-success mt-2" role="alert">A sua mensagem foi enviada. Retornaremos após analisá-la.</div>');
+                        $("#formMessage").html(
+                            '<div class="alert alert-success mt-2" role="alert">A sua mensagem foi enviada. Retornaremos após analisá-la.</div>'
+                            );
                     } else {
                         // Display error message below the submit button
-                        $("#formMessage").html('<div class="alert alert-danger mt-2" role="alert">' + (data.message || "Something went wrong.") + '</div>');
+                        $("#formMessage").html(
+                            '<div class="alert alert-danger mt-2" role="alert">' + (data
+                                .message || "Something went wrong.") + '</div>');
                     }
 
                     parentBtn.find("span").html("Check Availability");
@@ -1534,19 +1670,21 @@ initErrorHandling();
                 error: function(xhr) {
                     console.error('Error:', xhr);
                     // Display error message below the submit button if AJAX request fails
-                    $("#formMessage").html('<div class="alert alert-danger mt-2" role="alert">AJAX request failed.</div>');
+                    $("#formMessage").html(
+                        '<div class="alert alert-danger mt-2" role="alert">AJAX request failed.</div>'
+                        );
                 }
             });
         });
     });
 
-//   fetch Streaming
-fetch('assets/js/streaming.json')
-  .then(response => response.json())
-  .then(data => {
-    const container = document.getElementById('movie-list');
-    data.forEach(item => {
-      const html = `
+    //   fetch Streaming
+    fetch('assets/js/streaming.json')
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById('movie-list');
+            data.forEach(item => {
+                const html = `
         <div class="item">
           <div class="movie-one__item">
             <div class="movie-one__item__image">
@@ -1569,19 +1707,19 @@ fetch('assets/js/streaming.json')
           </div>
         </div>
       `;
-      container.innerHTML += html;
-    });
-  })
-  .catch(error => console.error('Error loading JSON:', error));
+                container.innerHTML += html;
+            });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+    </script>
 
+    <script type="module">
+    import {
+        bindAddToCart
+    } from './assets/js/add-to-cart.js';
 
-</script>
-
-<script type="module">
-    import { bindAddToCart } from './assets/js/add-to-cart.js';
-
-    bindAddToCart('.add-to-cart-btn', null , 3); // default selector and alert
-</script>
+    bindAddToCart('.add-to-cart-btn', null, 3); // default selector and alert
+    </script>
 </body>
 
 </html>
