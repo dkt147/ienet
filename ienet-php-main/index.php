@@ -162,27 +162,27 @@ initErrorHandling();
         <!-- main-slider-start -->
         <section class="main-slider-one" id="home">
             <div class="main-slider-one__carousel ienet-owl__carousel owl-carousel" data-owl-options='{
-		"loop": true,
-		"animateOut": "fadeOut",
-		"animateIn": "fadeIn",
-		"items": 1,
-		"autoplay": true,
-		"autoplayTimeout": 7000,
-		"smartSpeed": 1000,
-		"nav": false,
-        "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
-		"dots": true,
-		"margin": 0
-	    }'>
+                    "loop": true,
+                    "animateOut": "fadeOut",
+                    "animateIn": "fadeIn",
+                    "items": 1,
+                    "autoplay": true,
+                    "autoplayTimeout": 7000,
+                    "smartSpeed": 1000,
+                    "nav": false,
+                    "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+                    "dots": true,
+                    "margin": 0
+                    }'>
                 <div class="item">
                     <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);"></div>
+                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/family-creating-digital-content.jpg);"></div>
                         <div class="main-slider-one__content">
                             <h5 class="main-slider-one__sub-title"><span class="main-slider-one__sub-title__border"></span>Connecting the World</h5>
                             <!-- slider-sub-title -->
                             <h2 class="main-slider-one__title">Your Gateway to the<br> Digital Universe</h2><!-- slider-title -->
                             <p class="main-slider-one__text">
-                                Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a consectetur tortor<br>
+                                Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a consectetuhorz-1r tortor<br>
                                 varius in. Sed tincidunt aliquet lorem, eget tincidunt est molestie non. 
                             </p><!-- slider-tex -->
                             <div class="main-slider-one__btn">
@@ -192,7 +192,7 @@ initErrorHandling();
                         </div>
                         <div class="main-slider-one__image">
                             <div class="main-slider-one__image__one">
-                                <img src="assets/images/backgrounds/slider-1-layer-2.jpg" alt="WalaNet">
+                                <img src="assets/images/backgrounds/slider442.jpg" alt="WalaNet">
                             </div>
                             <div class="main-slider-one__image__border">
                                 <img src="assets/images/shapes/slider-1-border.png" alt="WalaNet">
@@ -207,12 +207,12 @@ initErrorHandling();
                                 </div>
                             </div>
                         </div>
-                        <div class="main-slider-one__layer" style="background-image: url(assets/images/backgrounds/slider-1-layer-1.png);"></div>
+                        <!-- <div class="main-slider-one__layer" style="background-image: url(assets/images/backgrounds/thumbnail-residential-974.jpg);"></div> -->
                     </div>
                 </div>
                 <div class="item">
                     <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);"></div>
+                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/family-creating-digital-content.jpg);"></div>
                         <div class="main-slider-one__content">
                             <h5 class="main-slider-one__sub-title"><span class="main-slider-one__sub-title__border"></span>Connecting the World</h5>
                             <!-- slider-sub-title -->
@@ -228,7 +228,7 @@ initErrorHandling();
                         </div>
                         <div class="main-slider-one__image">
                             <div class="main-slider-one__image__one">
-                                <img src="assets/images/backgrounds/slider-1-layer-2.jpg" alt="WalaNet">
+                                <img src="assets/images/backgrounds/slider442.jpg" alt="WalaNet">
                             </div>
                             <div class="main-slider-one__image__border">
                                 <img src="assets/images/shapes/slider-1-border.png" alt="WalaNet">
@@ -243,12 +243,12 @@ initErrorHandling();
                                 </div>
                             </div>
                         </div>
-                        <div class="main-slider-one__layer" style="background-image: url(assets/images/backgrounds/slider-1-layer-2.png);"></div>
+                        <!-- <div class="main-slider-one__layer" style="background-image: url(assets/images/backgrounds/slider-1-layer-2.png);"></div> -->
                     </div>
                 </div>
                 <div class="item">
                     <div class="main-slider-one__item">
-                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);"></div>
+                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/family-creating-digital-content.jpg);"></div>
                         <div class="main-slider-one__content">
                             <h5 class="main-slider-one__sub-title"><span class="main-slider-one__sub-title__border"></span>Connecting the World</h5>
                             <!-- slider-sub-title -->
@@ -264,7 +264,7 @@ initErrorHandling();
                         </div>
                         <div class="main-slider-one__image">
                             <div class="main-slider-one__image__one">
-                                <img src="assets/images/backgrounds/slider-1-layer-2.jpg" alt="WalaNet">
+                                <img src="assets/images/backgrounds/slider442.jpg" alt="WalaNet">
                             </div>
                             <div class="main-slider-one__image__border">
                                 <img src="assets/images/shapes/slider-1-border.png" alt="WalaNet">
@@ -279,7 +279,7 @@ initErrorHandling();
                                 </div>
                             </div>
                         </div>
-                        <div class="main-slider-one__layer" style="background-image: url(assets/images/backgrounds/slider-1-layer-3.png);"></div>
+                        <!-- <div class="main-slider-one__layer" style="background-image: url(assets/images/backgrounds/slider-1-layer-3.png);"></div> -->
                     </div>
                 </div>
             </div>
@@ -293,12 +293,12 @@ initErrorHandling();
                     <div class="col-xl-6">
                         <div class="about-one__image wow fadeInLeft" data-wow-delay="300ms">
                             <div class="about-one__image__one">
-                                <img src="assets/images/resources/about-1-1.jpg" alt="WalaNet">
+                                <img src="assets/images/resources/network.png" alt="WalaNet">
                             </div>
                             <div class="about-one__image__bg"></div>
                             <div class="about-one__image__border" style="background-image: url(assets/images/shapes/about-1-border.png);"></div>
                             <div class="about-one__image__two">
-                                <div class="about-one__image__two__inner"><img src="assets/images/resources/about-1-2.jpg" alt="WalaNet"></div>
+                                <div class="about-one__image__two__inner"><img src="assets/images/resources/network209.jpg" alt="WalaNet"></div>
                             </div>
                         </div><!-- /.about-one__image -->
                     </div><!-- /.col-lg-6 -->
@@ -328,7 +328,7 @@ initErrorHandling();
         </section><!-- /.about-one -->
 
         <section class="packages-one" id="packages">
-            <div class="packages-one__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%" style="background-image: url(assets/images/backgrounds/price-bg-1.jpg);"></div>
+            <div class="packages-one__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%" style="background-image: url(assets/images/backgrounds/img-about.jpg);"></div>
             <!-- /.packages-one__bg -->
             <div class="container tabs-box">
                 <ul class="packages-one__wrapper">
@@ -403,7 +403,7 @@ initErrorHandling();
                                         onclick="window.open('http:/\/\wa.me/+258843736665?text=Hi%20there%2C%20I%20want%20to%20place%20an%20order', '_blank')"><i class="fab fa-whatsapp"></i></span> -->
 
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-1.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -420,7 +420,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $12/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-2.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -437,7 +437,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $15/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-3.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -458,7 +458,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $12/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-1.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -475,7 +475,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $35/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-2.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -492,7 +492,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $20/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-3.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -513,7 +513,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $19/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-1.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -530,7 +530,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $39/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-2.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -547,7 +547,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $59/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-3.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -568,7 +568,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $29/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-1.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -585,7 +585,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $49/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-2.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -602,7 +602,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $69/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-3.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -623,7 +623,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $19/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-1.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -640,7 +640,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $39/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-2.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -657,7 +657,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $59/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-3.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -678,7 +678,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $39/Basic Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-1.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -695,7 +695,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $59/corporate Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-2.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -712,7 +712,7 @@ initErrorHandling();
                                     <a class="packages-one__card__rm" href="http:/\/\wa.me/+258843736665?text=Olá WalaNet, estou interessado no $89/Dedicated Package. Por favor, forneça mais detalhes" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     <!-- <a class="packages-one__card__rm" href="contact.php"><i class="icon-right-chevron"></i></a> -->
                                     <div class="packages-one__card__image">
-                                        <img src="assets/images/resources/package-1-3.jpg" alt="WalaNet">
+                                        <img src="assets/images/resources/5g-snap-cubes-two-color-background.jpg" alt="WalaNet">
                                     </div>
                                 </div>
                             </div><!-- item -->
@@ -758,13 +758,13 @@ initErrorHandling();
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                         <div class="feature-one__image">
                             <div class="feature-one__image__one">
-                                <img src="assets/images/resources/feature-1-1.jpg" alt="WalaNet">
+                                <img src="assets/images/resources/featurenetwork.png" alt="WalaNet">
                             </div>
                             <div class="feature-one__image__border">
                                 <img src="assets/images/shapes/feature-shape-1.png" alt="WalaNet">
                             </div>
                             <div class="feature-one__image__router">
-                                <img src="assets/images/resources/feature-1-router.png" alt="WalaNet">
+                                <img src="assets/images/resources/fetures.jpg" alt="WalaNet">
                             </div>
                         </div>
                     </div>
@@ -797,10 +797,10 @@ initErrorHandling();
         <!-- Feature End -->
 
         <section class="mail-one">
-            <div class="mail-one__bg" style="background-image: url(assets/images/backgrounds/mail-bg-1.jpg);"></div>
+            <div class="mail-one__bg" style="background-image: url(assets/images/backgrounds/img-connectivity.jpg);"></div>
             <!-- /.movie-one__bg -->
-            <div class="mail-one__shape-left" style="background-image: url(assets/images/resources/mail-shape-1.png);"></div>
-            <div class="mail-one__shape-right" style="background-image: url(assets/images/resources/mail-shape-2.png);"></div>
+            <div class="mail-one__shape-left" style="background-image: url(assets/images/resources/thumbnail-connectivity.jpg);"></div>
+            <div class="mail-one__shape-right" style="background-image: url(assets/images/resources/horz-1.jpg);"></div>
             <div class="container">
                 <div class="mail-one__content">
                     <div class="sec-title text-left">
@@ -836,14 +836,14 @@ initErrorHandling();
                     <div class="col-lg-6">
                         <div class="cta-one__image wow fadeInLeft" data-wow-delay="100ms">
                             <div class="cta-one__image__one">
-                                <img src="assets/images/resources/cta-1-1.jpg" alt="WalaNet">
+                                <img src="assets/images/resources/savemoney446.jpg" alt="WalaNet">
                             </div>
                             <div class="cta-one__image__shape">
                                 <img src="assets/images/shapes/cta-shape-1.png" alt="WalaNet">
                             </div>
-                            <div class="cta-one__image__two wow fadeInUp" data-wow-delay="300ms">
+                            <!-- <div class="cta-one__image__two wow fadeInUp" data-wow-delay="300ms">
                                 <img src="assets/images/resources/cta-1-1.png" alt="WalaNet">
-                            </div>
+                            </div> -->
                             <div class="cta-one__image__price wow fadeInUp" data-wow-delay="200ms">
                                 Start Form $39 / <span>Month</span>
                             </div>
@@ -868,24 +868,24 @@ initErrorHandling();
             </div><!-- /.container -->
         </section><!-- /.cta-one -->
 
-        <section class="movie-one" id="movie">
-            <div class="movie-one__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%" style="background-image: url(assets/images/backgrounds/movie-bg-1.jpg);"></div>
-            <!-- /.movie-one__bg -->
+        <!-- <section class="movie-one" id="movie">
+            <div class="movie-one__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%" style="background-image: url(assets/images/backgrounds/medium-shot-woman-eating-popcorn.jpg);"></div>
+             /.movie-one__bg 
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
                         <div class="sec-title text-left">
 
-                            <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>entertainment<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                            <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>entertainment<span class="sec-title__tagline__right-border"></span></h6> /.sec-title__tagline 
 
-                            <h3 class="sec-title__title bw-split-in-left">Popular <span>Featured</span> Show</h3><!-- /.sec-title__title -->
-                        </div><!-- /.sec-title -->
+                            <h3 class="sec-title__title bw-split-in-left">Popular <span>Featured</span> Show</h3> /.sec-title__title 
+                        </div>/.sec-title 
                     </div>
                     <div class="col-md-4">
                         <div class="movie-one__nav">
                             <a href="#" class="movie-one__nav__prev"><i class="icon-left-chevron"></i></a>
                             <a href="#" class="movie-one__nav__next"><i class="icon-right-chevron"></i></a>
-                        </div><!-- /.testimonials-one__custome-navs -->
+                        </div>/.testimonials-one__custome-navs 
                     </div>
                 </div>
             </div>
@@ -936,8 +936,12 @@ initErrorHandling();
 			}
 		}
 		}' id="movie-list">
-                <!-- <div class="item">
-                    <div class="movie-one__item">
+
+
+
+      ------------------------  this section is already commented ---------------------------------
+                <div class="item">
+                 <div class="movie-one__item">
                         <div class="movie-one__item__image">
                             <img src="assets/images/movie/movie-1-1.jpg" alt="WalaNet">
                         </div>
@@ -989,9 +993,11 @@ initErrorHandling();
                             </ul>
                         </div>
                     </div>
-                </div> -->
+                </div> 
+                            --------------- this section is already commented ---------------------------------------
+
             </div>
-        </section>
+        </section>  -->
 
         <section class="faq-one">
             <div class="faq-one__shape" style="background-image: url(assets/images/resources/faq-shape-1.png);"></div>
@@ -1081,7 +1087,7 @@ initErrorHandling();
                                     Nulla facilisi. Pellentesque imperdiet,<br> sem et commodo interdum, justo velit.
                                 </p>
                             </div>
-                            <div class="faq-one__video" style="background-image: url(assets/images/resources/faq-1-video.jpg);">
+                            <div class="faq-one__video" style="background-image: url(assets/images/resources/wokwithus.png);">
                                 <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
                                     <i class="fa fa-play"></i>
                                     <i class="ripple"></i>
@@ -1135,7 +1141,7 @@ initErrorHandling();
                                         <a class="ienet-btn product__item__link add-to-cart-btn"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div>  
                             <div class="col-md-6 col-lg-4">
                                 <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
                                     <div class="product__item__img">
