@@ -314,7 +314,7 @@
                         <div class="main-header__call">
                             <div class="main-header__call__icon"><span class="icon-telephone"></span></div>
                             <div class="main-header__call__title">Call Emergency</div>
-                            <a class="main-header__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                            <a class="main-header__call__text" href="tel:88012365499">+258 84 9903997</a>
                         </div><!-- /.info -->
                         <a href="contact.php" class="ienet-btn"><span>GET IN TOUCH<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
                         <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a><!-- /.sidebar-toggler -->
@@ -592,7 +592,7 @@
                                 <div class="about-three__info__call">
                                     <div class="about-three__info__call__icon"><span class="icon-telephone"></span></div>
                                     <div class="about-three__info__call__title">Call Emergency</div>
-                                    <a class="about-three__info__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                                    <a class="about-three__info__call__text" href="tel:88012365499">+258 84 9903997</a>
                                 </div>
                             </div>
                         </div><!-- /.about-three__content -->
@@ -1378,7 +1378,7 @@
                         <ul class="list-unstyled main-footer__top__info">
                             <li class="main-footer__top__info__item">
                                 <span class="main-footer__top__info__icon"><i class="icon-mail"></i></span>
-                                <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
+                                <a href="mailto:iinfo@walanet.online">iinfo@walanet.online</a>
                             </li>
                             <li class="main-footer__top__info__item">
                                 <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
@@ -1423,7 +1423,7 @@
                     <div class="main-footer__middle__call">
                         <div class="main-footer__middle__call__icon"><span class="icon-telephone"></span></div>
                         <div class="main-footer__middle__call__title">Call Emergency</div>
-                        <a class="main-footer__middle__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                        <a class="main-footer__middle__call__text" href="tel:88012365499">+258 84 9903997</a>
                     </div>
                 </div><!-- /.main-footer__middle -->
             </div><!-- /.container -->

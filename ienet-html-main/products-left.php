@@ -435,9 +435,9 @@
                                         </div>
                                     </div><!-- /.product-image -->
                                     <div class="product__item__content">
-                                        <div class="product__item__ratings">
+                                        <!-- <div class="product__item__ratings">
                                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div><!-- /.product-ratings -->
+                                        </div>/.product-ratings -->
                                         <h4 class="product__item__title"><a href="product-details.php">Digital Brush</a></h4><!-- /.product-title -->
                                         <div class="product__item__price">$20.00</div><!-- /.product-price -->
                                         <a href="cart.php" class="ienet-btn product__item__link"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
@@ -454,9 +454,9 @@
                                         </div>
                                     </div><!-- /.product-image -->
                                     <div class="product__item__content">
-                                        <div class="product__item__ratings">
+                                        <!-- <div class="product__item__ratings">
                                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div><!-- /.product-ratings -->
+                                        </div>/.product-ratings -->
                                         <h4 class="product__item__title"><a href="product-details.php">Tplink Router</a></h4><!-- /.product-title -->
                                         <div class="product__item__price">$25.00</div><!-- /.product-price -->
                                         <a href="cart.php" class="ienet-btn product__item__link"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
@@ -473,9 +473,9 @@
                                         </div>
                                     </div><!-- /.product-image -->
                                     <div class="product__item__content">
-                                        <div class="product__item__ratings">
+                                        <!-- <div class="product__item__ratings">
                                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div><!-- /.product-ratings -->
+                                        </div>/.product-ratings -->
                                         <h4 class="product__item__title"><a href="product-details.php">Digital Camera</a></h4><!-- /.product-title -->
                                         <div class="product__item__price">$33.00</div><!-- /.product-price -->
                                         <a href="cart.php" class="ienet-btn product__item__link"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
@@ -492,9 +492,9 @@
                                         </div>
                                     </div><!-- /.product-image -->
                                     <div class="product__item__content">
-                                        <div class="product__item__ratings">
+                                        <!-- <div class="product__item__ratings">
                                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div><!-- /.product-ratings -->
+                                        </div>/.product-ratings -->
                                         <h4 class="product__item__title"><a href="product-details.php">Awesome VR</a></h4><!-- /.product-title -->
                                         <div class="product__item__price">$32.00</div><!-- /.product-price -->
                                         <a href="cart.php" class="ienet-btn product__item__link"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
@@ -511,9 +511,9 @@
                                         </div>
                                     </div><!-- /.product-image -->
                                     <div class="product__item__content">
-                                        <div class="product__item__ratings">
+                                        <!-- <div class="product__item__ratings">
                                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div><!-- /.product-ratings -->
+                                        </div>/.product-ratings -->
                                         <h4 class="product__item__title"><a href="product-details.php">Digital Mic</a></h4><!-- /.product-title -->
                                         <div class="product__item__price">$31.00</div><!-- /.product-price -->
                                         <a href="cart.php" class="ienet-btn product__item__link"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
@@ -530,9 +530,9 @@
                                         </div>
                                     </div><!-- /.product-image -->
                                     <div class="product__item__content">
-                                        <div class="product__item__ratings">
+                                        <!-- <div class="product__item__ratings">
                                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div><!-- /.product-ratings -->
+                                        </div>/.product-ratings -->
                                         <h4 class="product__item__title"><a href="product-details.php">Wifi Gadget</a></h4><!-- /.product-title -->
                                         <div class="product__item__price">$38.00</div><!-- /.product-price -->
                                         <a href="cart.php" class="ienet-btn product__item__link"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
@@ -541,11 +541,11 @@
                             </div><!-- /.col-md-6 col-lg-4 -->
                             <div class="col-md-12">
                                 <ul class="post-pagination text-center product__pagination">
-                                    <li><a href="products-right.php"><i class="icon-arrow-point-to-left"></i></a></li>
-                                    <li><a class="current" href="products-right.php">01</a></li>
-                                    <li><a href="products-right.php">02</a></li>
-                                    <li><a href="products-right.php">03</a></li>
-                                    <li><a href="products-right.php"><i class="icon-arrow-point-to-right"></i></a></li>
+                                    <li><a href="products-left.php"><i class="icon-arrow-point-to-left"></i></a></li>
+                                    <li><a class="current" href="products-left.php">01</a></li>
+                                    <li><a href="products-left.php">02</a></li>
+                                    <li><a href="products-left.php">03</a></li>
+                                    <li><a href="products-left.php"><i class="icon-arrow-point-to-right"></i></a></li>
                                 </ul>
                             </div><!-- /.col-md-12 -->
                         </div><!-- /.row -->

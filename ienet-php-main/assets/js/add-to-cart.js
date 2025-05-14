@@ -78,18 +78,12 @@ export function bindAddToCart(selector = '.add-to-cart-btn', callback = null, it
                                     <div class="product__item__img">
                                         <img src="${product.image}" alt="${product.title}">
                                         <div class="product__item__btn">
-                                            <a href="cart.php"><i class="far fa-heart"></i></a>
-                                            <a href="product-details.php"><i class="fas fa-eye"></i></a>
+                                            <a href="https://wa.me/+258843736665?text=Olá WalaNet, tenho uma questão e gostaria de conversar."><i class="fab fa-whatsapp"></i></a>
+
                                         </div>
                                     </div>
                                     <div class="product__item__content">
-                                        <div class="product__item__ratings">
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                        </div>
+                                       
                                         <h4 class="product__item__title"><a href="product-details.php">${product.title}</a></h4>
                                         <div class="product__item__price">$${product.price.toFixed(2)}</div>
                                         <a class="ienet-btn product__item__link ${selector.replace('.', '')}" data-id="${product.id}">

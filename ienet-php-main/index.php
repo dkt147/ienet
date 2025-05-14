@@ -76,7 +76,7 @@ initErrorHandling();
                     <ul class="list-unstyled topbar-one__info">
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-mail"></i></span>
-                            <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
+                            <a href="mailto:iinfo@walanet.online">iinfo@walanet.online</a>
                         </li>
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
@@ -159,7 +159,7 @@ initErrorHandling();
                         <div class="main-header__call">
                             <div class="main-header__call__icon"><span class="icon-telephone"></span></div>
                             <div class="main-header__call__title">Call Emergency</div>
-                            <a class="main-header__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                            <a class="main-header__call__text" href="tel:88012365499">+258 84 9903997</a>
                         </div>
                     </div><!-- /.main-header__right -->
                 </div><!-- /.main-header__inner -->
@@ -1251,64 +1251,8 @@ initErrorHandling();
                                 <p>See More >></p>
                             </div>
                         </div>
-                        <div class="row gutter-y-30 " id="product-list">
-                            <!-- <div class="col-md-6 col-lg-4">
-                                <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
-                                    <div class="product__item__img">
-                                        <img src="assets/images/products/product-1-1.png" alt="nisoz">
-                                        <div class="product__item__btn">
-                                            <a href="cart.php"><i class="far fa-heart"></i></a>
-                                            <a href="product-details.php"><i class="fas fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product__item__content">
-                                        <div class="product__item__ratings">
-                                            <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div>
-                                        <h4 class="product__item__title"><a href="product-details.php">Digital Brush</a></h4>
-                                        <div class="product__item__price">$20.00</div>
-                                        <a class="ienet-btn product__item__link add-to-cart-btn"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
-                                    </div>
-                                </div>
-                            </div>  
-                            <div class="col-md-6 col-lg-4">
-                                <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
-                                    <div class="product__item__img">
-                                        <img src="assets/images/products/product-1-2.png" alt="nisoz">
-                                        <div class="product__item__btn">
-                                            <a><i class="far fa-heart"></i></a>
-                                            <a href="product-details.php"><i class="fas fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product__item__content">
-                                        <div class="product__item__ratings">
-                                            <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div>
-                                        <h4 class="product__item__title"><a href="product-details.php">Tplink Router</a></h4>
-                                        <div class="product__item__price">$25.00</div>
-                                        <a class="ienet-btn product__item__link add-to-cart-btn"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='200ms'>
-                                    <div class="product__item__img">
-                                        <img src="assets/images/products/product-1-3.png" alt="nisoz">
-                                        <div class="product__item__btn">
-                                            <a href="cart.php"><i class="far fa-heart"></i></a>
-                                            <a href="product-details.php"><i class="fas fa-eye"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product__item__content">
-                                        <div class="product__item__ratings">
-                                            <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div>
-                                        <h4 class="product__item__title"><a href="product-details.php">Digital Camera</a></h4>
-                                        <div class="product__item__price">$33.00</div>
-                                        <a href="cart.php" class="ienet-btn product__item__link add-to-cart-btn"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
-                                    </div>
-                                </div>
-                            </div> -->
+                        <div class="row gutter-y-30" id="product-list">
+
                         </div>
                     </div>
                 </div><!-- /.row -->
@@ -1374,7 +1318,7 @@ initErrorHandling();
                     <div class="main-footer__middle__call">
                         <div class="main-footer__middle__call__icon"><span class="icon-telephone"></span></div>
                         <div class="main-footer__middle__call__title">Call Emergency</div>
-                        <a class="main-footer__middle__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                        <a class="main-footer__middle__call__text" href="tel:88012365499">+258 84 9903997</a>
                     </div>
                 </div><!-- /.main-footer__middle -->
             </div><!-- /.container -->
@@ -1618,7 +1562,7 @@ initErrorHandling();
 
     <!-- template js -->
     <script src="assets/js/ienet.js"></script>
-    <script>
+    <script type="module">
     $(document).ready(function() {
         $('.select2-select').select2({
             placeholder: "Select an area...",
@@ -1650,7 +1594,7 @@ initErrorHandling();
                         // Display success message below the submit button
                         $("#formMessage").html(
                             '<div class="alert alert-success mt-2" role="alert">A sua mensagem foi enviada. Retornaremos após analisá-la.</div>'
-                            );
+                        );
                     } else {
                         // Display error message below the submit button
                         $("#formMessage").html(
@@ -1672,7 +1616,7 @@ initErrorHandling();
                     // Display error message below the submit button if AJAX request fails
                     $("#formMessage").html(
                         '<div class="alert alert-danger mt-2" role="alert">AJAX request failed.</div>'
-                        );
+                    );
                 }
             });
         });
@@ -1718,7 +1662,65 @@ initErrorHandling();
         bindAddToCart
     } from './assets/js/add-to-cart.js';
 
-    bindAddToCart('.add-to-cart-btn', null, 3); // default selector and alert
+    document.addEventListener("DOMContentLoaded", () => {
+        const container = document.getElementById('product-list');
+        const showingText = document.querySelector('.product__showing-text');
+        let allProducts = [];
+        let currentPage = 1;
+        const itemsPerPage = 3;
+
+        function renderProducts() {
+            container.innerHTML = '';
+
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageItems = allProducts.slice(start, end);
+            const savedCart = JSON.parse(localStorage.getItem('cart') || '{}');
+
+            if (pageItems.length === 0) {
+                container.innerHTML = '<p>No products found.</p>';
+                updateShowingText(0, 0, 0);
+                return;
+            }
+
+            pageItems.forEach((product, index) => {
+                const delay = index * 100;
+                const inCart = savedCart[product.id];
+                const buttonText = inCart ? "Already Added" : "Add To Cart";
+                const html = `
+                <div class="col-md-6 col-lg-4">
+                    <div class="product__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="${delay}ms">
+                        <div class="product__item__img">
+                            <img src="${product.image}" alt="${product.title}">
+                            <div class="product__item__btn">
+                                <a href="https://wa.me/+258843736665?text=Olá WalaNet, tenho uma questão e gostaria de conversar."><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                        <div class="product__item__content">
+                            <h4 class="product__item__title"><a href="product-details.php">${product.title}</a></h4>
+                            <div class="product__item__price">$${product.price.toFixed(2)}</div>
+                            <a class="ienet-btn product__item__link add-to-cart-btn" data-id="${product.id}">
+                                <span>${buttonText} <span class="ienet-btn__icon"><i class="icon-cart"></i></span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+
+            bindAddToCart('.add-to-cart-btn', null, 3);
+
+        }
+
+
+        fetch('./assets/js/product.json')
+            .then(res => res.json())
+            .then(products => {
+                allProducts = products;
+                renderProducts();
+            });
+    });
     </script>
 </body>
 

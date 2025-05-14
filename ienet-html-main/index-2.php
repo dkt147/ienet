@@ -1519,7 +1519,7 @@
                         <ul class="list-unstyled main-footer__top__info">
                             <li class="main-footer__top__info__item">
                                 <span class="main-footer__top__info__icon"><i class="icon-mail"></i></span>
-                                <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
+                                <a href="mailto:iinfo@walanet.online">iinfo@walanet.online</a>
                             </li>
                             <li class="main-footer__top__info__item">
                                 <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
@@ -1564,7 +1564,7 @@
                     <div class="main-footer__middle__call">
                         <div class="main-footer__middle__call__icon"><span class="icon-telephone"></span></div>
                         <div class="main-footer__middle__call__title">Call Emergency</div>
-                        <a class="main-footer__middle__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                        <a class="main-footer__middle__call__text" href="tel:88012365499">+258 84 9903997</a>
                     </div>
                 </div><!-- /.main-footer__middle -->
             </div><!-- /.container -->

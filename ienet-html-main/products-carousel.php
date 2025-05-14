@@ -53,7 +53,7 @@
                     <ul class="list-unstyled topbar-one__info">
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-mail"></i></span>
-                            <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
+                            <a href="mailto:iinfo@walanet.online">iinfo@walanet.online</a>
                         </li>
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
@@ -353,7 +353,7 @@
                         <div class="main-header__call">
                             <div class="main-header__call__icon"><span class="icon-telephone"></span></div>
                             <div class="main-header__call__title">Call Emergency</div>
-                            <a class="main-header__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                            <a class="main-header__call__text" href="tel:88012365499">+258 84 9903997</a>
                         </div>
                     </div><!-- /.main-header__right -->
                 </div><!-- /.main-header__inner -->
@@ -413,9 +413,9 @@
                                         </div>
                                     </div><!-- /.product-image -->
                                     <div class="product__item__content">
-                                        <div class="product__item__ratings">
+                                        <!-- <div class="product__item__ratings">
                                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div><!-- /.product-ratings -->
+                                        </div>/.product-ratings -->
                                         <h4 class="product__item__title"><a href="product-details.php">Digital Brush</a></h4><!-- /.product-title -->
                                         <div class="product__item__price">$20.00</div><!-- /.product-price -->
                                         <a href="cart.php" class="ienet-btn product__item__link"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
@@ -432,9 +432,9 @@
                                         </div>
                                     </div><!-- /.product-image -->
                                     <div class="product__item__content">
-                                        <div class="product__item__ratings">
+                                        <!-- <div class="product__item__ratings">
                                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div><!-- /.product-ratings -->
+                                        </div>/.product-ratings -->
                                         <h4 class="product__item__title"><a href="product-details.php">Tplink Router</a></h4><!-- /.product-title -->
                                         <div class="product__item__price">$25.00</div><!-- /.product-price -->
                                         <a href="cart.php" class="ienet-btn product__item__link"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
@@ -451,9 +451,9 @@
                                         </div>
                                     </div><!-- /.product-image -->
                                     <div class="product__item__content">
-                                        <div class="product__item__ratings">
+                                        <!-- <div class="product__item__ratings">
                                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div><!-- /.product-ratings -->
+                                        </div>/.product-ratings -->
                                         <h4 class="product__item__title"><a href="product-details.php">Digital Camera</a></h4><!-- /.product-title -->
                                         <div class="product__item__price">$33.00</div><!-- /.product-price -->
                                         <a href="cart.php" class="ienet-btn product__item__link"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
@@ -470,9 +470,9 @@
                                         </div>
                                     </div><!-- /.product-image -->
                                     <div class="product__item__content">
-                                        <div class="product__item__ratings">
+                                        <!-- <div class="product__item__ratings">
                                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div><!-- /.product-ratings -->
+                                        </div>/.product-ratings -->
                                         <h4 class="product__item__title"><a href="product-details.php">Awesome VR</a></h4><!-- /.product-title -->
                                         <div class="product__item__price">$32.00</div><!-- /.product-price -->
                                         <a href="cart.php" class="ienet-btn product__item__link"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
@@ -489,9 +489,9 @@
                                         </div>
                                     </div><!-- /.product-image -->
                                     <div class="product__item__content">
-                                        <div class="product__item__ratings">
+                                        <!-- <div class="product__item__ratings">
                                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div><!-- /.product-ratings -->
+                                        </div>/.product-ratings -->
                                         <h4 class="product__item__title"><a href="product-details.php">Digital Mic</a></h4><!-- /.product-title -->
                                         <div class="product__item__price">$31.00</div><!-- /.product-price -->
                                         <a href="cart.php" class="ienet-btn product__item__link"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
@@ -508,9 +508,9 @@
                                         </div>
                                     </div><!-- /.product-image -->
                                     <div class="product__item__content">
-                                        <div class="product__item__ratings">
+                                        <!-- <div class="product__item__ratings">
                                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
-                                        </div><!-- /.product-ratings -->
+                                        </div>/.product-ratings -->
                                         <h4 class="product__item__title"><a href="product-details.php">Wifi Gadget</a></h4><!-- /.product-title -->
                                         <div class="product__item__price">$38.00</div><!-- /.product-price -->
                                         <a href="cart.php" class="ienet-btn product__item__link"><span>Add To Cart<span class="ienet-btn__icon"><i class="icon-cart"></i></span></span></a>
@@ -534,7 +534,7 @@
                         <ul class="list-unstyled main-footer__top__info">
                             <li class="main-footer__top__info__item">
                                 <span class="main-footer__top__info__icon"><i class="icon-mail"></i></span>
-                                <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
+                                <a href="mailto:iinfo@walanet.online">iinfo@walanet.online</a>
                             </li>
                             <li class="main-footer__top__info__item">
                                 <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
@@ -579,7 +579,7 @@
                     <div class="main-footer__middle__call">
                         <div class="main-footer__middle__call__icon"><span class="icon-telephone"></span></div>
                         <div class="main-footer__middle__call__title">Call Emergency</div>
-                        <a class="main-footer__middle__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                        <a class="main-footer__middle__call__text" href="tel:88012365499">+258 84 9903997</a>
                     </div>
                 </div><!-- /.main-footer__middle -->
             </div><!-- /.container -->

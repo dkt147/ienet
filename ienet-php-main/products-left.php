@@ -243,7 +243,7 @@ initErrorHandling();
                 <!-- <div class="col-xl-9"> -->
                 <div class="product__info-top">
                     <div class="product__showing-text-box">
-                        <p class="product__showing-text">Showing 1–9 of 12 Results</p>
+                        <p class="product__showing-text" id="showing-text">Showing 1–9 of 12 Results</p>
                     </div>
                     <div class="product__search">
                         <form id="search-form" action="javascript:void(0);">
@@ -254,7 +254,7 @@ initErrorHandling();
                         </form>
                     </div><!-- /.search-widget -->
                     <div class="product__price-ranger">
-                        <h3 class="product__sidebar__title">Filter by price</h3>
+                        <!-- <h3 class="product__sidebar__title">Filter by price</h3> -->
                         <form action="#" class="price-ranger">
                             <div id="slider-range"></div>
                             <div class="ranger-min-max-block">
@@ -265,12 +265,14 @@ initErrorHandling();
                         </form>
                     </div>
                     <div class="product__showing-sort">
-                        <select class="selectpicker" aria-label="Default Sorting">
+                        <select class="selectpicker" id="sort-select" aria-label="Default Sorting">
                             <option selected>Default Sorting</option>
-                            <option value="1">Sort by view</option>
+                            <option value="price-asc">Price: Low to High</option>
+                            <option value="price-desc">Price: High to Low</option>
+                            <!-- <option value="1">Sort by view</option>
                             <option value="2">Sort by price</option>
                             <option value="3">Sort by ratings</option>
-                            <option value="4">Sort by popular</option>
+                            <option value="4">Sort by popular</option> -->
                         </select>
                     </div>
                 </div>
@@ -581,10 +583,10 @@ initErrorHandling();
 
 
     <!-- jQuery UI CSS -->
-<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
 
-<!-- jQuery UI JS -->
-<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <!-- jQuery UI JS -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
 </body>
 
 </html>
@@ -597,160 +599,155 @@ import {
     bindAddToCart
 } from './assets/js/add-to-cart.js';
 
-bindAddToCart(); // default selector and alert
-
-
-
-
-
-
-document.addEventListener("DOMContentLoaded", function () {
-    let allProducts = [];
+document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById('product-list');
     const searchInput = document.getElementById('search-input');
-    
-    // Fetch products from JSON
-    fetch('./assets/js/product.json')
-        .then(response => response.json())
-        .then(products => {
-            allProducts = products;  // Store the products globally for later use
-            renderProducts(allProducts);  // Initial render without filtering
-        });
+    const sortSelect = document.getElementById('sort-select');
+    const pagination = document.getElementById('pagination');
 
-    // Handle search functionality
-    searchInput.addEventListener('input', function () {
-        const keyword = searchInput.value.toLowerCase();
-        const filteredProducts = allProducts.filter(product => {
-            return product.title.toLowerCase().includes(keyword);
-        });
-        renderProducts(filteredProducts);  // Render the filtered products
-    });
-
-    // Function to render the filtered products
-    function renderProducts(products) {
-        container.innerHTML = '';  // Clear the container
-
-        products.forEach((product, index) => {
-            const delay = index * 100;  // For animation delay
-            const html = `
-                <div class="col-md-6 col-lg-4">
-                    <div class="product__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="${delay}ms">
-                        <div class="product__item__img">
-                            <img src="${product.image}" alt="${product.title}">
-                            <div class="product__item__btn">
-                                <a href="cart.php"><i class="far fa-heart"></i></a>
-                                <a href="product-details.php"><i class="fas fa-eye"></i></a>
-                            </div>
-                        </div>
-                        <div class="product__item__content">
-                            <div class="product__item__ratings">
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                            </div>
-                            <h4 class="product__item__title"><a href="product-details.php">${product.title}</a></h4>
-                            <div class="product__item__price">$${product.price.toFixed(2)}</div>
-                            <a class="ienet-btn product__item__link add-to-cart-btn" data-id="${product.id}">
-                                <span>Add To Cart <span class="ienet-btn__icon"><i class="icon-cart"></i></span></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            `;
-            container.insertAdjacentHTML('beforeend', html);
-        });
-    }
-});
-
-
-
-document.addEventListener("DOMContentLoaded", function () {
     let allProducts = [];
-    const container = document.getElementById('product-list');
-    const searchInput = document.getElementById('search-input');
-
+    let filteredProducts = [];
     let minPrice = 0;
     let maxPrice = 0;
+    let currentPage = 1;
+    const itemsPerPage = 6;
 
-    // Fetch products from JSON
+    // function for showing numbers
+    function updateShowingText(currentPage, itemsPerPage, totalItems) {
+        const start = (currentPage - 1) * itemsPerPage + 1;
+        const end = Math.min(currentPage * itemsPerPage, totalItems);
+        const textElement = document.getElementById('showing-text');
+
+        if (textElement) {
+            if (totalItems === 0) {
+                textElement.textContent = "No results found";
+            } else {
+                textElement.textContent = `Showing ${start}–${end} of ${totalItems} Results`;
+            }
+        }
+    }
+
+
+
+
+
     fetch('./assets/js/product.json')
-        .then(response => response.json())
+        .then(res => res.json())
         .then(products => {
             allProducts = products;
-            const prices = products.map(p => p.price);
-            minPrice = Math.min(...prices);
-            maxPrice = Math.max(...prices);
-
-            setupPriceSlider(minPrice, maxPrice);
-            renderProducts(allProducts);  // Initial render
+            filteredProducts = [...products];
+            initPriceSlider(products);
+            applyFiltersAndRender();
         });
 
-    function setupPriceSlider(min, max) {
+    function initPriceSlider(products) {
+        const prices = products.map(p => p.price);
+        minPrice = Math.floor(Math.min(...prices));
+        maxPrice = Math.ceil(Math.max(...prices));
+
         $("#slider-range").slider({
             range: true,
-            min: Math.floor(min),
-            max: Math.ceil(max),
-            values: [Math.floor(min), Math.ceil(max)],
-            slide: function (event, ui) {
-                $(".min").val("$" + ui.values[0]);
-                $(".max").val("$" + ui.values[1]);
-                filterProducts(searchInput.value, ui.values[0], ui.values[1]);
+            min: minPrice,
+            max: maxPrice,
+            values: [minPrice, maxPrice],
+            slide: (event, ui) => {
+                $(".min").val(`$${ui.values[0]}`);
+                $(".max").val(`$${ui.values[1]}`);
+                applyFiltersAndRender();
             }
         });
 
-        $(".min").val("$" + $("#slider-range").slider("values", 0));
-        $(".max").val("$" + $("#slider-range").slider("values", 1));
+        $(".min").val(`$${minPrice}`);
+        $(".max").val(`$${maxPrice}`);
     }
 
-    searchInput.addEventListener('input', function () {
-        const keyword = searchInput.value.toLowerCase();
-        const [min, max] = $("#slider-range").slider("values");
-        filterProducts(keyword, min, max);
+    searchInput.addEventListener('input', () => {
+        currentPage = 1;
+        applyFiltersAndRender();
     });
 
-    function filterProducts(keyword, minPrice, maxPrice) {
-        const filtered = allProducts.filter(product => {
-            const titleMatch = product.title.toLowerCase().includes(keyword.toLowerCase());
-            const priceMatch = product.price >= minPrice && product.price <= maxPrice;
+    sortSelect.addEventListener('change', () => {
+        applyFiltersAndRender();
+    });
+
+    pagination.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = e.target.closest('a');
+        if (!target) return;
+
+        if (target.classList.contains('prev-group')) {
+            currentPage = Math.max(1, currentPage - 1);
+        } else if (target.classList.contains('next-group')) {
+            const maxPages = Math.ceil(filteredProducts.length / itemsPerPage);
+            currentPage = Math.min(maxPages, currentPage + 1);
+        } else if (target.dataset.page) {
+            currentPage = parseInt(target.dataset.page);
+        }
+        // if (!target || !target.dataset.page) return;
+
+        currentPage = parseInt(target.dataset.page);
+        renderProducts(filteredProducts);
+        renderPagination(filteredProducts);
+        bindAddToCart();
+    });
+
+    function applyFiltersAndRender() {
+        const keyword = searchInput.value.toLowerCase();
+        const [min, max] = $("#slider-range").slider("values");
+        const sortType = sortSelect.value;
+
+        filteredProducts = allProducts.filter(product => {
+            const titleMatch = product.title.toLowerCase().includes(keyword);
+            const priceMatch = product.price >= min && product.price <= max;
             return titleMatch && priceMatch;
         });
-        renderProducts(filtered);
+
+        if (sortType === 'price-asc') {
+            filteredProducts.sort((a, b) => a.price - b.price);
+        } else if (sortType === 'price-desc') {
+            filteredProducts.sort((a, b) => b.price - a.price);
+        }
+
+        currentPage = 1;
+        renderProducts(filteredProducts);
+        renderPagination(filteredProducts);
+        bindAddToCart();
     }
 
     function renderProducts(products) {
         container.innerHTML = '';
+        //showing numbers code
+        const totalItems = products.length;
 
-        if (products.length === 0) {
-            container.innerHTML = '<p>No products found matching your criteria.</p>';
+
+        const start = (currentPage - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+        const pageItems = products.slice(start, end);
+        const savedCart = JSON.parse(localStorage.getItem('cart') || '{}');
+
+        if (pageItems.length === 0) {
+            container.innerHTML = '<p>No products found.</p>';
             return;
         }
 
-        products.forEach((product, index) => {
+        pageItems.forEach((product, index) => {
             const delay = index * 100;
+            const inCart = savedCart[product.id];
+            const buttonText = inCart ? "Already Added" : "Add To Cart";
             const html = `
                 <div class="col-md-6 col-lg-4">
                     <div class="product__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="${delay}ms">
                         <div class="product__item__img">
                             <img src="${product.image}" alt="${product.title}">
                             <div class="product__item__btn">
-                                <a href="cart.php"><i class="far fa-heart"></i></a>
-                                <a href="product-details.php"><i class="fas fa-eye"></i></a>
+                                <a href="https://wa.me/+258843736665?text=Olá WalaNet, tenho uma questão e gostaria de conversar."><i class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
                         <div class="product__item__content">
-                            <div class="product__item__ratings">
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                            </div>
                             <h4 class="product__item__title"><a href="product-details.php">${product.title}</a></h4>
                             <div class="product__item__price">$${product.price.toFixed(2)}</div>
                             <a class="ienet-btn product__item__link add-to-cart-btn" data-id="${product.id}">
-                                <span>Add To Cart <span class="ienet-btn__icon"><i class="icon-cart"></i></span></span>
+                                <span>${buttonText} <span class="ienet-btn__icon"><i class="icon-cart"></i></span></span>
                             </a>
                         </div>
                     </div>
@@ -758,6 +755,34 @@ document.addEventListener("DOMContentLoaded", function () {
             `;
             container.insertAdjacentHTML('beforeend', html);
         });
+        updateShowingText(currentPage, itemsPerPage, totalItems);
+    }
+
+    function renderPagination(products) {
+        const totalPages = Math.ceil(products.length / itemsPerPage);
+        const pagesPerGroup = 3;
+        const currentGroup = Math.floor((currentPage - 1) / pagesPerGroup);
+        const startPage = currentGroup * pagesPerGroup + 1;
+        const endPage = Math.min(startPage + pagesPerGroup - 1, totalPages);
+
+        let html = '';
+
+        if (currentPage > 1) {
+            html +=
+                `<li><a href="#" data-page="${currentPage - 1}"><i class="icon-arrow-point-to-left"></i></a></li>`;
+        }
+
+        for (let i = startPage; i <= endPage; i++) {
+            html +=
+                `<li><a href="#" class="${i === currentPage ? 'current' : ''}" data-page="${i}">${String(i).padStart(2, '0')}</a></li>`;
+        }
+
+        if (currentPage < totalPages) {
+            html +=
+                `<li><a href="#" data-page="${currentPage + 1}"><i class="icon-arrow-point-to-right"></i></a></li>`;
+        }
+
+        pagination.innerHTML = html;
     }
 });
 </script>
